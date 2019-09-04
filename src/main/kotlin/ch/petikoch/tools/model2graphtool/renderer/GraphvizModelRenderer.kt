@@ -44,10 +44,8 @@ ${it.text}
                 facts2MutNode[from]!!.addLink(facts2MutNode[to])
             }
 
-            val graphviz: Graphviz = mutGraph.toGraphviz()
-            val renderer = graphviz.render(format)
             val baos = ByteArrayOutputStream()
-            renderer.toOutputStream(baos)
+            mutGraph.toGraphviz().render(format).toOutputStream(baos)
             return baos.toByteArray()
         } finally {
             logger.info("Rendering ${model.facts.size} facts with ${model.connections.size} took $stopwatch")

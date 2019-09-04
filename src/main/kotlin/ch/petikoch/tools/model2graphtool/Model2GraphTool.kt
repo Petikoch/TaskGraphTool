@@ -30,10 +30,13 @@ class Model2GraphTool {
                           modelRenderer: IModelRenderer): CommandLineRunner {
         return CommandLineRunner {
             val svgContent = modelRenderer.render(model, Format.SVG)
-            val file = File("build/graphs/graph.svg")
-            file.parentFile.mkdirs()
-            file.writeBytes(svgContent)
-            logger.info("Generated ${file.path}")
+
+            File("build/graphs/graph.svg").apply {
+                parentFile.mkdirs()
+                writeBytes(svgContent)
+                logger.info("Generated $path")
+            }
+
             SpringApplication.exit(ctx)
         }
     }
