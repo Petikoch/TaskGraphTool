@@ -1,5 +1,7 @@
 package ch.petikoch.tools.taskgraphtool.model
 
+import java.time.ZonedDateTime
+
 interface IModel {
 
     fun nodes(): Iterable<Pair<Int, Node>>
@@ -13,5 +15,7 @@ interface IModel {
     fun disconnect(fromIndex: Int, toIndex: Int)
 
     fun reset()
+
+    fun getLastModified(): ZonedDateTime
 
 }

@@ -4,10 +4,16 @@ import ch.petikoch.tools.taskgraphtool.model.Connection
 import ch.petikoch.tools.taskgraphtool.model.ConnectionType
 import ch.petikoch.tools.taskgraphtool.model.IModel
 import ch.petikoch.tools.taskgraphtool.model.Node
+import ch.petikoch.tools.taskgraphtool.renderer.GraphvizModelRenderer
 import org.apache.commons.lang3.NotImplementedException
+import org.slf4j.LoggerFactory
 import java.time.ZonedDateTime
 
 internal class TaskGraphToolMutableModel : IModel {
+
+    companion object {
+        private val logger = LoggerFactory.getLogger(GraphvizModelRenderer::class.java)
+    }
 
     private var lastModified = ZonedDateTime.now()
     private var nextNodeId: Int = 1
@@ -27,6 +33,7 @@ internal class TaskGraphToolMutableModel : IModel {
         nextNodeId = 1
         nodes.clear()
         connections.clear()
+        lastModified = ZonedDateTime.now()
     }
 
     override fun disconnect(fromIndex: Int, toIndex: Int) {
@@ -47,13 +54,22 @@ internal class TaskGraphToolMutableModel : IModel {
         }
     }
 
+    override fun getLastModified(): ZonedDateTime {
+        return lastModified
+    }
+
     // programmatic API to create an instance
     fun add(node: Node): Pair<Int, Node> {
-        val pair = Pair(nextNodeId, node)
-        nodes.add(pair)
-        nextNodeId++
-        lastModified = ZonedDateTime.now()
-        return pair
+        val existingEntry = nodes.singleOrNull { it.second == node }
+        return if (existingEntry == null) {
+            val pair = Pair(nextNodeId, node)
+            nodes.add(pair)
+            nextNodeId++
+            lastModified = ZonedDateTime.now()
+            pair
+        } else {
+            existingEntry
+        }
     }
 
     fun addAndConnect(vararg varArgNodes: Node): List<Node> {
@@ -99,7 +115,7 @@ internal class TaskGraphToolMutableModel : IModel {
             val secondPair = nodes.single { it.second == second }
             connect(firstPair.first, secondPair.first, connectionType)
         } catch (ex: Exception) {
-            ex.printStackTrace()
+            logger.error("Unhandled exception: $ex", ex)
         }
         return Pair(first, second)
     }
@@ -116,4 +132,5 @@ internal class TaskGraphToolMutableModel : IModel {
     fun youtrackIssue(issueId: String): String {
         return "https://youtrack.jetbrains.com/issue/$issueId"
     }
+
 }
