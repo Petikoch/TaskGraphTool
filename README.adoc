@@ -8,7 +8,7 @@ Peti Koch
 
 == Introduction
 
-The *Task Graph Tool* is a visual issue tracker with goals, problems, decisions and tasks as first class citizens.
+The *Task Graph Tool* is a visual issue tracker with _goals_, _problems_, _decisions_ and _tasks_ as first class citizens.
 
 == State of the project
 
