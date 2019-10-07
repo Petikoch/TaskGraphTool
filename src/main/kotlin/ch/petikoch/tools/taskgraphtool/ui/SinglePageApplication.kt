@@ -73,14 +73,14 @@ class SinglePageApplication : DesignSinglePageApplication(), InitializingBean {
         val modelStreamResource = StreamResource(
                 { ByteArrayInputStream(modelSerializer.serialize(model).toByteArray()) },
                 "TaskGraphTool-model.${modelSerializer.getFileExtension()}"
-        )
+        ).apply { cacheTime = -1 }
         val modelFileDownloader = FileDownloader(modelStreamResource)
         modelFileDownloader.extend(saveModelButton)
 
         val svgStreamResource = StreamResource(
                 { ByteArrayInputStream(renderModel2Svg(zoomer.currentZoomFactor())) },
                 "TaskGraphTool-model.svg"
-        )
+        ).apply { cacheTime = -1 }
         val svgFileDownloader = FileDownloader(svgStreamResource)
         svgFileDownloader.extend(saveSvgButton)
 
