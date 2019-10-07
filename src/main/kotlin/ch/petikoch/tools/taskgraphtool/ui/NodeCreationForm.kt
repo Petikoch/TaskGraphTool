@@ -5,6 +5,7 @@ import ch.petikoch.tools.taskgraphtool.model.Node
 import ch.petikoch.tools.taskgraphtool.model.NodeState
 import ch.petikoch.tools.taskgraphtool.model.Task
 import ch.petikoch.tools.taskgraphtool.model.impl.TaskGraphToolMutableModel
+import com.vaadin.server.Page
 import com.vaadin.ui.Notification
 import com.vaadin.ui.Window
 import kotlin.reflect.KFunction
@@ -32,7 +33,9 @@ class NodeCreationForm(private val window: Window,
             val pair = mutableModel.add(createNodeFromFormValue())
             window.close()
             closeCallback.invoke()
-            Notification.show(pair.first.toString())
+            val notification = Notification(pair.first.toString())
+            notification.delayMsec = 2000
+            notification.show(Page.getCurrent())
         }
     }
 
