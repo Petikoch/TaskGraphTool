@@ -1,43 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="852px"
-     viewBox="0.00 0.00 3485.00 1278.26" width="2323px">
+     viewBox="0.00 0.00 2709.02 1278.26" width="1806px">
     <g class="graph" id="graph0" transform="scale(1.0 1.0) rotate(0) translate(4 1274.2615)">
         <title>graph</title>
-        <polygon fill="#ffffff" points="-4,4 -4,-1274.2615 3480.9985,-1274.2615 3480.9985,4 -4,4" stroke="transparent"/>
+        <polygon fill="#ffffff" points="-4,4 -4,-1274.2615 2705.0243,-1274.2615 2705.0243,4 -4,4" stroke="transparent"/>
         <!-- 1\nIts is difficult to have an overview \nover the different tasks in a project, \nhow they are related\nand in which state these tasks are\n -->
         <g class="node" id="node1" onclick="top.taskgraphtool_nodeselected(&quot;1&quot;);">
             <title>1\nIts is difficult to have an overview \nover the different tasks in a project, \nhow they are
                 related\nand in which state these tasks are\n
             </title>
             <polygon fill="#dc143c"
-                     points="1216.0139,-56.0917 1182.0639,-117.3507 1044.6033,-144.6135 907.1426,-117.3507 873.1927,-56.0917 968.3184,-6.9659 1120.8882,-6.9659 1216.0139,-56.0917"
+                     points="1255.3016,-56.0917 1221.3516,-117.3507 1083.891,-144.6135 946.4304,-117.3507 912.4804,-56.0917 1007.6061,-6.9659 1160.1759,-6.9659 1255.3016,-56.0917"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1044.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1083.891"
                   y="-101.6043">1
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1044.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1083.891"
                   y="-84.8043">Its is difficult to have an overview
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1044.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1083.891"
                   y="-68.0043">over the different tasks in a project,
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1044.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1083.891"
                   y="-51.2043">how they are related
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1044.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1083.891"
                   y="-34.4043">and in which state these tasks are
             </text>
         </g>
         <!-- 5\nHave a visual overview \nof the project\n -->
         <g class="node" id="node2" onclick="top.taskgraphtool_nodeselected(&quot;5&quot;);">
             <title>5\nHave a visual overview \nof the project\n</title>
-            <ellipse cx="970.6033" cy="-244.8967" fill="#228b22" rx="106.9391" ry="41.0911" stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="970.6033"
+            <ellipse cx="1031.891" cy="-244.8967" fill="#228b22" rx="106.9391" ry="41.0911" stroke="#000000"/>
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1031.891"
                   y="-257.4967">5
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="970.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1031.891"
                   y="-240.6967">Have a visual overview
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="970.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1031.891"
                   y="-223.8967">of the project
             </text>
         </g>
@@ -46,27 +46,28 @@
             <title>1\nIts is difficult to have an overview \nover the different tasks in a project, \nhow they are
                 related\nand in which state these tasks are\n-&gt;5\nHave a visual overview \nof the project\n
             </title>
-            <path d="M1015.9929,-138.9717C1008.0659,-157.4709 999.5965,-177.2358 992.1464,-194.6219" fill="none"
+            <path d="M1063.1898,-140.9531C1057.8891,-158.5569 1052.2815,-177.1798 1047.2996,-193.7245" fill="none"
                   stroke="#000000" stroke-dasharray="5,2"/>
-            <polygon fill="#000000" points="988.844,-193.4427 988.1223,-204.0129 995.2781,-196.1998 988.844,-193.4427"
+            <polygon fill="#000000"
+                     points="1043.8189,-193.1452 1044.2869,-203.7297 1050.5216,-195.1636 1043.8189,-193.1452"
                      stroke="#000000"/>
         </g>
         <!-- 9\nCreate a prototype of such a tool with\n&#45; basic editing functions\n&#45; load and save\n -->
         <g class="node" id="node4" onclick="top.taskgraphtool_nodeselected(&quot;9&quot;);">
             <title>9\nCreate a prototype of such a tool with\n- basic editing functions\n- load and save\n</title>
             <polygon fill="none"
-                     points="1424.2093,-282.597 1196.9972,-282.597 1196.9972,-207.1965 1424.2093,-207.1965 1424.2093,-282.597"
+                     points="1439.497,-282.597 1212.285,-282.597 1212.285,-207.1965 1439.497,-207.1965 1439.497,-282.597"
                      stroke="#d3d3d3"/>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1310.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1325.891"
                   y="-265.8967">9
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1310.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1325.891"
                   y="-249.0967">Create a prototype of such a tool with
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1310.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1325.891"
                   y="-232.2967">- basic editing functions
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1310.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1325.891"
                   y="-215.4967">- load and save
             </text>
         </g>
@@ -76,23 +77,23 @@
                 related\nand in which state these tasks are\n-&gt;9\nCreate a prototype of such a tool with\n- basic
                 editing functions\n- load and save\n
             </title>
-            <path d="M1130.2315,-127.7958C1167.0542,-151.7019 1209.4496,-179.2258 1243.8827,-201.5804" fill="none"
+            <path d="M1163.466,-128.9894C1196.3318,-152.4426 1233.8346,-179.2048 1264.5174,-201.1002" fill="none"
                   stroke="#d3d3d3" stroke-dasharray="5,2"/>
             <polygon fill="#d3d3d3"
-                     points="1242.1637,-204.6373 1252.457,-207.1471 1245.9755,-198.7661 1242.1637,-204.6373"
+                     points="1262.8081,-204.1802 1272.9811,-207.14 1266.8742,-198.4822 1262.8081,-204.1802"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 8\nSimplify communication\nbetween team members\n -->
         <g class="node" id="node3" onclick="top.taskgraphtool_nodeselected(&quot;8&quot;);">
             <title>8\nSimplify communication\nbetween team members\n</title>
-            <ellipse cx="450.6033" cy="-404.404" fill="#228b22" rx="110.055" ry="41.0911" stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="450.6033"
+            <ellipse cx="483.891" cy="-404.404" fill="#228b22" rx="110.055" ry="41.0911" stroke="#000000"/>
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="483.891"
                   y="-417.004">8
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="450.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="483.891"
                   y="-400.204">Simplify communication
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="450.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="483.891"
                   y="-383.404">between team members
             </text>
         </g>
@@ -100,48 +101,51 @@
         <g class="edge" id="edge3">
             <title>5\nHave a visual overview \nof the project\n-&gt;8\nSimplify communication\nbetween team members\n
             </title>
-            <path d="M896.6625,-274.7599C864.4912,-286.8691 826.1015,-300.1471 790.6033,-309.3849 696.416,-333.8954 667.4447,-316.1878 574.6033,-345.3849 557.2363,-350.8465 539.1975,-358.3009 522.4326,-366.0733"
+            <path d="M961.0683,-275.8949C931.2436,-287.8997 895.863,-300.7927 862.891,-309.3849 755.9641,-337.249 723.0403,-314.6912 616.891,-345.3849 597.5841,-350.9676 577.4321,-358.7805 558.825,-366.8982"
                   fill="none" stroke="#000000"/>
-            <polygon fill="#000000" points="520.8038,-362.9719 513.2623,-370.4134 523.7984,-369.2991 520.8038,-362.9719"
+            <polygon fill="#000000" points="557.252,-363.7672 549.5378,-371.0296 560.0971,-370.163 557.252,-363.7672"
                      stroke="#000000"/>
         </g>
-        <!-- 10\nHow to build this TaskGraphTool?\n -->
+        <!-- 10\nHow to create this \nTaskGraphTool?\n -->
         <g class="node" id="node5" onclick="top.taskgraphtool_nodeselected(&quot;10&quot;);">
-            <title>10\nHow to build this TaskGraphTool?\n</title>
+            <title>10\nHow to create this \nTaskGraphTool?\n</title>
             <polygon fill="none"
-                     points="1760.8117,-397.1057 1727.8921,-424.8536 1594.6033,-437.2025 1461.3145,-424.8536 1428.3948,-397.1057 1520.6336,-374.8536 1668.573,-374.8536 1760.8117,-397.1057"
+                     points="1173.48,-394.2418 1154.5474,-432.878 1077.891,-450.0727 1001.2346,-432.878 982.302,-394.2418 1035.3499,-363.258 1120.4321,-363.258 1173.48,-394.2418"
                      stroke="#d3d3d3"/>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1594.6033"
-                  y="-408.604">10
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1077.891"
+                  y="-417.004">10
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1594.6033"
-                  y="-391.804">How to build this TaskGraphTool?
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1077.891"
+                  y="-400.204">How to create this
+            </text>
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1077.891"
+                  y="-383.404">TaskGraphTool?
             </text>
         </g>
-        <!-- 9\nCreate a prototype of such a tool with\n&#45; basic editing functions\n&#45; load and save\n&#45;&gt;10\nHow to build this TaskGraphTool?\n -->
+        <!-- 9\nCreate a prototype of such a tool with\n&#45; basic editing functions\n&#45; load and save\n&#45;&gt;10\nHow to create this \nTaskGraphTool?\n -->
         <g class="edge" id="edge4">
             <title>9\nCreate a prototype of such a tool with\n- basic editing functions\n- load and save\n-&gt;10\nHow
-                to build this TaskGraphTool?\n
+                to create this \nTaskGraphTool?\n
             </title>
-            <path d="M1377.9073,-282.6977C1424.963,-309.1264 1487.3172,-344.1473 1533.0536,-369.835" fill="none"
+            <path d="M1267.1185,-282.6977C1229.0333,-307.1932 1179.4718,-339.0698 1140.6249,-364.0552" fill="none"
                   stroke="#d3d3d3"/>
             <polygon fill="#d3d3d3"
-                     points="1531.537,-372.9974 1541.9699,-374.8428 1534.9649,-366.8941 1531.537,-372.9974"
+                     points="1138.5217,-361.2464 1132.0044,-369.5997 1142.3083,-367.1339 1138.5217,-361.2464"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 17\nGive credits to the \nused technologies\n -->
         <g class="node" id="node17" onclick="top.taskgraphtool_nodeselected(&quot;17&quot;);">
             <title>17\nGive credits to the \nused technologies\n</title>
             <polygon fill="#eee8aa"
-                     points="738.6274,-433.8054 616.5791,-433.8054 616.5791,-375.0027 738.6274,-375.0027 738.6274,-433.8054"
+                     points="1471.9151,-433.8054 1349.8669,-433.8054 1349.8669,-375.0027 1471.9151,-375.0027 1471.9151,-433.8054"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="677.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1410.891"
                   y="-417.004">17
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="677.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1410.891"
                   y="-400.204">Give credits to the
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="677.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1410.891"
                   y="-383.404">used technologies
             </text>
         </g>
@@ -150,9 +154,10 @@
             <title>9\nCreate a prototype of such a tool with\n- basic editing functions\n- load and save\n-&gt;17\nGive
                 credits to the \nused technologies\n
             </title>
-            <path d="M1197.0115,-281.7587C1161.9228,-292.0164 1122.944,-302.2806 1086.6033,-309.3849 937.9042,-338.4541 886.9705,-285.9439 747.6033,-345.3849 734.9031,-350.8016 722.7627,-359.3369 712.2642,-368.251"
-                  fill="none" stroke="#d3d3d3"/>
-            <polygon fill="#d3d3d3" points="709.7165,-365.833 704.574,-375.0961 714.3706,-371.0617 709.7165,-365.833"
+            <path d="M1346.0348,-282.6977C1359.4579,-307.887 1377.0404,-340.8815 1390.5118,-366.1613" fill="none"
+                  stroke="#d3d3d3"/>
+            <polygon fill="#d3d3d3"
+                     points="1387.4819,-367.918 1395.2736,-375.0972 1393.6595,-364.626 1387.4819,-367.918"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 18\nAdd an open source licence\nto the prototype and all its files\n -->
@@ -161,15 +166,15 @@
             <g id="a_node18">
                 <a xlink:title="Use e.g. https://github.com/hierynomus/license-gradle-plugin">
                     <polygon fill="#eee8aa"
-                             points="946.7928,-433.8054 756.4138,-433.8054 756.4138,-375.0027 946.7928,-375.0027 946.7928,-433.8054"
+                             points="1680.0805,-433.8054 1489.7015,-433.8054 1489.7015,-375.0027 1680.0805,-375.0027 1680.0805,-433.8054"
                              stroke="#000000"/>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="851.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1584.891"
                           y="-417.004">18
                     </text>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="851.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1584.891"
                           y="-400.204">Add an open source licence
                     </text>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="851.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1584.891"
                           y="-383.404">to the prototype and all its files
                     </text>
                 </a>
@@ -180,9 +185,10 @@
             <title>9\nCreate a prototype of such a tool with\n- basic editing functions\n- load and save\n-&gt;18\nAdd
                 an open source licence\nto the prototype and all its files\n
             </title>
-            <path d="M1197.0123,-277.8879C1161.6644,-288.0765 1122.5402,-299.2744 1086.6033,-309.3849 1028.4791,-325.7375 1011.3997,-322.3071 955.6033,-345.3849 939.0854,-352.2168 921.914,-361.1294 906.3973,-369.9502"
-                  fill="none" stroke="#d3d3d3"/>
-            <polygon fill="#d3d3d3" points="904.3718,-367.0785 897.4699,-375.1167 907.8781,-373.137 904.3718,-367.0785"
+            <path d="M1387.2704,-282.6977C1430.1447,-309.1022 1486.9454,-344.0834 1528.6453,-369.7646" fill="none"
+                  stroke="#d3d3d3"/>
+            <polygon fill="#d3d3d3"
+                     points="1526.9538,-372.8334 1537.3039,-375.0972 1530.6245,-366.873 1526.9538,-372.8334"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 20\nCheck licence compatibility\nof the used technologies\n(Spring Boot, Kotlin, graphviz, ...)\n -->
@@ -190,18 +196,18 @@
             <title>20\nCheck licence compatibility\nof the used technologies\n(Spring Boot, Kotlin, graphviz, ...)\n
             </title>
             <polygon fill="#eee8aa"
-                     points="1174.2446,-442.1043 964.962,-442.1043 964.962,-366.7038 1174.2446,-366.7038 1174.2446,-442.1043"
+                     points="1907.5323,-442.1043 1698.2497,-442.1043 1698.2497,-366.7038 1907.5323,-366.7038 1907.5323,-442.1043"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1069.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1802.891"
                   y="-425.404">20
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1069.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1802.891"
                   y="-408.604">Check licence compatibility
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1069.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1802.891"
                   y="-391.804">of the used technologies
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1069.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1802.891"
                   y="-375.004">(Spring Boot, Kotlin, graphviz, ...)
             </text>
         </g>
@@ -210,10 +216,10 @@
             <title>9\nCreate a prototype of such a tool with\n- basic editing functions\n- load and save\n-&gt;20\nCheck
                 licence compatibility\nof the used technologies\n(Spring Boot, Kotlin, graphviz, ...)\n
             </title>
-            <path d="M1253.4896,-282.6977C1218.0524,-306.1521 1172.3907,-336.3735 1135.4346,-360.8332" fill="none"
-                  stroke="#d3d3d3"/>
+            <path d="M1439.4686,-269.9036C1512.0439,-287.446 1607.4729,-313.4408 1688.891,-345.3849 1701.4122,-350.2975 1714.3654,-356.1739 1726.8512,-362.2868"
+                  fill="none" stroke="#d3d3d3"/>
             <polygon fill="#d3d3d3"
-                     points="1133.1313,-358.1604 1126.7241,-366.5983 1136.9948,-363.9977 1133.1313,-358.1604"
+                     points="1725.3359,-365.4421 1735.8473,-366.7692 1728.4577,-359.1768 1725.3359,-365.4421"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 21\nValidate if the prototype\nachieves the original goals\nand solves the mentioned problems\n -->
@@ -221,18 +227,18 @@
             <title>21\nValidate if the prototype\nachieves the original goals\nand solves the mentioned problems\n
             </title>
             <polygon fill="#eee8aa"
-                     points="2447.12,-629.1235 2234.0865,-629.1235 2234.0865,-553.7229 2447.12,-553.7229 2447.12,-629.1235"
+                     points="1547.4077,-629.1235 1334.3743,-629.1235 1334.3743,-553.7229 1547.4077,-553.7229 1547.4077,-629.1235"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2340.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1440.891"
                   y="-612.4232">21
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2340.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1440.891"
                   y="-595.6232">Validate if the prototype
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2340.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1440.891"
                   y="-578.8232">achieves the original goals
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2340.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1440.891"
                   y="-562.0232">and solves the mentioned problems
             </text>
         </g>
@@ -241,30 +247,30 @@
             <title>9\nCreate a prototype of such a tool with\n- basic editing functions\n- load and save\n-&gt;21\nValidate
                 if the prototype\nachieves the original goals\nand solves the mentioned problems\n
             </title>
-            <path d="M1424.3031,-251.3071C1608.6276,-263.1071 1963.4611,-292.0757 2076.6033,-345.3849 2174.9183,-391.7079 2261.2122,-488.2234 2306.6341,-545.6397"
+            <path d="M1321.9443,-282.6643C1318.7264,-327.3976 1317.8988,-403.4097 1340.891,-463.4232 1352.6744,-494.1799 1374.5211,-523.5154 1394.7957,-546.3245"
                   fill="none" stroke="#d3d3d3"/>
             <polygon fill="#d3d3d3"
-                     points="2304.1154,-548.1002 2313.0357,-553.8166 2309.6272,-543.785 2304.1154,-548.1002"
+                     points="1392.2775,-548.7576 1401.5944,-553.8021 1397.4569,-544.0486 1392.2775,-548.7576"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 29\nScrollbar jumps \non model updates\n(large models)\n -->
-        <g class="node" id="node28" onclick="top.taskgraphtool_nodeselected(&quot;29&quot;);">
+        <g class="node" id="node29" onclick="top.taskgraphtool_nodeselected(&quot;29&quot;);">
             <title>29\nScrollbar jumps \non model updates\n(large models)\n</title>
-            <g id="a_node28">
+            <g id="a_node29">
                 <a xlink:title="Maybe switch to SVG panning?&#10;https://webdesign.tutsplus.com/tutorials/svg-viewport-and-viewbox-for-beginners--cms-30844&#10;&#10;(we already use SVG zooming)&#10;&#10;Or make it run using Vaadin's Panel and getScrollLeft() etc functions">
                     <polygon fill="#dc143c"
-                             points="1410.7377,-391.2668 1392.8854,-441.2138 1320.6033,-463.4424 1248.3211,-441.2138 1230.4689,-391.2668 1280.4897,-351.2123 1360.7168,-351.2123 1410.7377,-391.2668"
+                             points="2106.0254,-391.2668 2088.1732,-441.2138 2015.891,-463.4424 1943.6088,-441.2138 1925.7566,-391.2668 1975.7774,-351.2123 2056.0046,-351.2123 2106.0254,-391.2668"
                              stroke="#000000"/>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1320.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2015.891"
                           y="-425.404">29
                     </text>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1320.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2015.891"
                           y="-408.604">Scrollbar jumps
                     </text>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1320.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2015.891"
                           y="-391.804">on model updates
                     </text>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1320.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2015.891"
                           y="-375.004">(large models)
                     </text>
                 </a>
@@ -275,10 +281,37 @@
             <title>9\nCreate a prototype of such a tool with\n- basic editing functions\n- load and save\n-&gt;29\nScrollbar
                 jumps \non model updates\n(large models)\n
             </title>
-            <path d="M1312.9731,-282.6977C1314.065,-300.1139 1315.3908,-321.2613 1316.6289,-341.0102" fill="none"
-                  stroke="#d3d3d3"/>
+            <path d="M1439.6279,-251.7792C1561.0342,-261.9579 1757.4623,-286.6457 1916.891,-345.3849 1927.6374,-349.3442 1938.5271,-354.4832 1948.9588,-360.0765"
+                  fill="none" stroke="#d3d3d3"/>
             <polygon fill="#d3d3d3"
-                     points="1313.1477,-341.4216 1317.2667,-351.183 1320.134,-340.9836 1313.1477,-341.4216"
+                     points="1947.5509,-363.298 1957.993,-365.0904 1950.9478,-357.1774 1947.5509,-363.298"
+                     stroke="#d3d3d3"/>
+        </g>
+        <!-- 47\nShow https://github.com/nidi3\nthe first results\n -->
+        <g class="node" id="node30" onclick="top.taskgraphtool_nodeselected(&quot;47&quot;);">
+            <title>47\nShow https://github.com/nidi3\nthe first results\n</title>
+            <polygon fill="#eee8aa"
+                     points="2310.2363,-433.8054 2123.5457,-433.8054 2123.5457,-375.0027 2310.2363,-375.0027 2310.2363,-433.8054"
+                     stroke="#000000"/>
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2216.891"
+                  y="-417.004">47
+            </text>
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2216.891"
+                  y="-400.204">Show https://github.com/nidi3
+            </text>
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2216.891"
+                  y="-383.404">the first results
+            </text>
+        </g>
+        <!-- 9\nCreate a prototype of such a tool with\n&#45; basic editing functions\n&#45; load and save\n&#45;&gt;47\nShow https://github.com/nidi3\nthe first results\n -->
+        <g class="edge" id="edge10">
+            <title>9\nCreate a prototype of such a tool with\n- basic editing functions\n- load and save\n-&gt;47\nShow
+                https://github.com/nidi3\nthe first results\n
+            </title>
+            <path d="M1439.5368,-253.7981C1626.9761,-269.4096 1992.4016,-304.0285 2114.891,-345.3849 2132.5547,-351.3487 2150.5673,-360.5449 2166.4424,-369.9165"
+                  fill="none" stroke="#d3d3d3"/>
+            <polygon fill="#d3d3d3"
+                     points="2164.6606,-372.9293 2175.0261,-375.1217 2168.2902,-366.9438 2164.6606,-372.9293"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 11\nUse existing programming languages,\nframeworks and libraries we already know \nin order to spend the minimum time\nto validate the idea\n -->
@@ -287,410 +320,408 @@
                 the minimum time\nto validate the idea\n
             </title>
             <polygon fill="none"
-                     points="1495.6033,-683.4232 1236.9893,-591.4232 1495.6033,-499.4232 1754.2173,-591.4232 1495.6033,-683.4232"
+                     points="996.891,-683.4232 738.277,-591.4232 996.891,-499.4232 1255.505,-591.4232 996.891,-683.4232"
                      stroke="#d3d3d3"/>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1495.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="996.891"
                   y="-620.8232">11
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1495.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="996.891"
                   y="-604.0232">Use existing programming languages,
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1495.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="996.891"
                   y="-587.2232">frameworks and libraries we already know
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1495.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="996.891"
                   y="-570.4232">in order to spend the minimum time
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1495.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="996.891"
                   y="-553.6232">to validate the idea
             </text>
         </g>
-        <!-- 10\nHow to build this TaskGraphTool?\n&#45;&gt;11\nUse existing programming languages,\nframeworks and libraries we already know \nin order to spend the minimum time\nto validate the idea\n -->
-        <g class="edge" id="edge10">
-            <title>10\nHow to build this TaskGraphTool?\n-&gt;11\nUse existing programming languages,\nframeworks and
+        <!-- 10\nHow to create this \nTaskGraphTool?\n&#45;&gt;11\nUse existing programming languages,\nframeworks and libraries we already know \nin order to spend the minimum time\nto validate the idea\n -->
+        <g class="edge" id="edge11">
+            <title>10\nHow to create this \nTaskGraphTool?\n-&gt;11\nUse existing programming languages,\nframeworks and
                 libraries we already know \nin order to spend the minimum time\nto validate the idea\n
             </title>
-            <path d="M1578.0329,-435.7068C1567.9339,-454.7846 1554.4882,-480.1847 1541.391,-504.9264" fill="none"
+            <path d="M1059.713,-446.3748C1052.5053,-463.0165 1043.9259,-482.8254 1035.4593,-502.3737" fill="none"
                   stroke="#d3d3d3" stroke-dasharray="5,2"/>
             <polygon fill="#d3d3d3"
-                     points="1538.1736,-503.5234 1536.5883,-513.999 1544.3602,-506.7984 1538.1736,-503.5234"
+                     points="1032.2138,-501.0608 1031.4511,-511.6282 1038.6372,-503.8429 1032.2138,-501.0608"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 14\nUse Vaadin 8\n -->
         <g class="node" id="node7" onclick="top.taskgraphtool_nodeselected(&quot;14&quot;);">
             <title>14\nUse Vaadin 8\n</title>
             <polygon fill="none"
-                     points="706.6033,-819.5234 614.2185,-777.8232 706.6033,-736.123 798.9881,-777.8232 706.6033,-819.5234"
+                     points="299.891,-819.5234 207.5062,-777.8232 299.891,-736.123 392.2758,-777.8232 299.891,-819.5234"
                      stroke="#d3d3d3"/>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="706.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="299.891"
                   y="-782.0232">14
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="706.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="299.891"
                   y="-765.2232">Use Vaadin 8
             </text>
         </g>
         <!-- 11\nUse existing programming languages,\nframeworks and libraries we already know \nin order to spend the minimum time\nto validate the idea\n&#45;&gt;14\nUse Vaadin 8\n -->
-        <g class="edge" id="edge11">
+        <g class="edge" id="edge12">
             <title>11\nUse existing programming languages,\nframeworks and libraries we already know \nin order to spend
                 the minimum time\nto validate the idea\n-&gt;14\nUse Vaadin 8\n
             </title>
-            <path d="M1291.6904,-610.9317C1152.1623,-628.6934 964.7209,-661.3403 807.6033,-719.4232 788.5129,-726.4805 768.8481,-736.9952 752.001,-747.1659"
+            <path d="M853.8612,-632.5924C790.2492,-649.9194 714.2094,-669.2948 644.891,-683.4232 537.4809,-705.3154 504.4025,-683.3461 400.891,-719.4232 381.5089,-726.1785 361.6455,-736.7365 344.7188,-747.0282"
                   fill="none" stroke="#d3d3d3"/>
-            <polygon fill="#d3d3d3" points="750.1379,-744.2028 743.4659,-752.433 753.814,-750.1598 750.1379,-744.2028"
+            <polygon fill="#d3d3d3" points="342.7902,-744.106 336.153,-752.3643 346.4915,-750.0475 342.7902,-744.106"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 12\nUse Kotlin\n -->
         <g class="node" id="node11" onclick="top.taskgraphtool_nodeselected(&quot;12&quot;);">
             <title>12\nUse Kotlin\n</title>
             <polygon fill="none"
-                     points="1202.6033,-819.5234 1125.5148,-777.8232 1202.6033,-736.123 1279.6917,-777.8232 1202.6033,-819.5234"
+                     points="734.891,-819.5234 657.8026,-777.8232 734.891,-736.123 811.9794,-777.8232 734.891,-819.5234"
                      stroke="#d3d3d3"/>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1202.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="734.891"
                   y="-782.0232">12
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1202.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="734.891"
                   y="-765.2232">Use Kotlin
             </text>
         </g>
         <!-- 11\nUse existing programming languages,\nframeworks and libraries we already know \nin order to spend the minimum time\nto validate the idea\n&#45;&gt;12\nUse Kotlin\n -->
-        <g class="edge" id="edge12">
+        <g class="edge" id="edge13">
             <title>11\nUse existing programming languages,\nframeworks and libraries we already know \nin order to spend
                 the minimum time\nto validate the idea\n-&gt;12\nUse Kotlin\n
             </title>
-            <path d="M1399.7429,-649.522C1364.5803,-671.1419 1324.5896,-696.0935 1288.6033,-719.4232 1274.3066,-728.6916 1258.8589,-739.0662 1245.0534,-748.4707"
-                  fill="none" stroke="#d3d3d3"/>
-            <polygon fill="#d3d3d3"
-                     points="1242.9765,-745.6507 1236.6947,-754.1823 1246.9258,-751.4302 1242.9765,-745.6507"
+            <path d="M910.3763,-652.9741C865.3916,-684.9785 812.4653,-722.6329 776.5906,-748.156" fill="none"
+                  stroke="#d3d3d3"/>
+            <polygon fill="#d3d3d3" points="774.4235,-745.4024 768.3042,-754.0514 778.4815,-751.1061 774.4235,-745.4024"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 13\nUse Spring Boot\n -->
         <g class="node" id="node12" onclick="top.taskgraphtool_nodeselected(&quot;13&quot;);">
             <title>13\nUse Spring Boot\n</title>
             <polygon fill="none"
-                     points="1406.6033,-819.5234 1297.4494,-777.8232 1406.6033,-736.123 1515.7571,-777.8232 1406.6033,-819.5234"
+                     points="938.891,-819.5234 829.7371,-777.8232 938.891,-736.123 1048.0449,-777.8232 938.891,-819.5234"
                      stroke="#d3d3d3"/>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1406.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="938.891"
                   y="-782.0232">13
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1406.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="938.891"
                   y="-765.2232">Use Spring Boot
             </text>
         </g>
         <!-- 11\nUse existing programming languages,\nframeworks and libraries we already know \nin order to spend the minimum time\nto validate the idea\n&#45;&gt;13\nUse Spring Boot\n -->
-        <g class="edge" id="edge13">
+        <g class="edge" id="edge14">
             <title>11\nUse existing programming languages,\nframeworks and libraries we already know \nin order to spend
                 the minimum time\nto validate the idea\n-&gt;13\nUse Spring Boot\n
             </title>
-            <path d="M1457.9883,-670.2034C1447.7609,-691.6234 1437.0363,-714.0849 1428.0463,-732.9133" fill="none"
+            <path d="M971.1136,-674.2665C965.0943,-693.6111 958.8876,-713.5584 953.5479,-730.719" fill="none"
                   stroke="#d3d3d3"/>
-            <polygon fill="#d3d3d3"
-                     points="1424.7994,-731.5907 1423.649,-742.1229 1431.1162,-734.6068 1424.7994,-731.5907"
+            <polygon fill="#d3d3d3" points="950.1413,-729.8869 950.5121,-740.4753 956.8252,-731.9667 950.1413,-729.8869"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 15\nUse https://github.com/nidi3/graphviz&#45;java\nfor visualization / auto&#45;layouting\n -->
         <g class="node" id="node13" onclick="top.taskgraphtool_nodeselected(&quot;15&quot;);">
             <title>15\nUse https://github.com/nidi3/graphviz-java\nfor visualization / auto-layouting\n</title>
             <polygon fill="none"
-                     points="1790.6033,-836.1234 1533.4572,-777.8232 1790.6033,-719.523 2047.7493,-777.8232 1790.6033,-836.1234"
+                     points="2337.891,-836.1234 2080.745,-777.8232 2337.891,-719.523 2595.037,-777.8232 2337.891,-836.1234"
                      stroke="#d3d3d3"/>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1790.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2337.891"
                   y="-790.4232">15
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1790.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2337.891"
                   y="-773.6232">Use https://github.com/nidi3/graphviz-java
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1790.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2337.891"
                   y="-756.8232">for visualization / auto-layouting
             </text>
         </g>
         <!-- 11\nUse existing programming languages,\nframeworks and libraries we already know \nin order to spend the minimum time\nto validate the idea\n&#45;&gt;15\nUse https://github.com/nidi3/graphviz&#45;java\nfor visualization / auto&#45;layouting\n -->
-        <g class="edge" id="edge14">
+        <g class="edge" id="edge15">
             <title>11\nUse existing programming languages,\nframeworks and libraries we already know \nin order to spend
                 the minimum time\nto validate the idea\n-&gt;15\nUse https://github.com/nidi3/graphviz-java\nfor
                 visualization / auto-layouting\n
             </title>
-            <path d="M1588.9431,-650.4013C1629.2745,-675.8853 1675.8796,-705.3334 1714.12,-729.4962" fill="none"
-                  stroke="#d3d3d3"/>
+            <path d="M1132.4401,-635.3796C1191.0526,-652.8346 1260.7779,-671.5451 1324.891,-683.4232 1591.8849,-732.8885 1903.5186,-756.9869 2109.8948,-768.3467"
+                  fill="none" stroke="#d3d3d3"/>
             <polygon fill="#d3d3d3"
-                     points="1712.3231,-732.5009 1722.6466,-734.8838 1716.0623,-726.5832 1712.3231,-732.5009"
+                     points="2109.7734,-771.8452 2119.9491,-768.8946 2110.1544,-764.8555 2109.7734,-771.8452"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 16\nUse other typical libraries\nlike guava, apache commons, ...\n -->
         <g class="node" id="node16" onclick="top.taskgraphtool_nodeselected(&quot;16&quot;);">
             <title>16\nUse other typical libraries\nlike guava, apache commons, ...\n</title>
             <polygon fill="none"
-                     points="2260.6033,-836.1234 2065.1554,-777.8232 2260.6033,-719.523 2456.0511,-777.8232 2260.6033,-836.1234"
+                     points="1261.891,-836.1234 1066.4431,-777.8232 1261.891,-719.523 1457.3389,-777.8232 1261.891,-836.1234"
                      stroke="#d3d3d3"/>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2260.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1261.891"
                   y="-790.4232">16
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2260.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1261.891"
                   y="-773.6232">Use other typical libraries
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2260.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1261.891"
                   y="-756.8232">like guava, apache commons, ...
             </text>
         </g>
         <!-- 11\nUse existing programming languages,\nframeworks and libraries we already know \nin order to spend the minimum time\nto validate the idea\n&#45;&gt;16\nUse other typical libraries\nlike guava, apache commons, ...\n -->
-        <g class="edge" id="edge15">
+        <g class="edge" id="edge16">
             <title>11\nUse existing programming languages,\nframeworks and libraries we already know \nin order to spend
                 the minimum time\nto validate the idea\n-&gt;16\nUse other typical libraries\nlike guava, apache
                 commons, ...\n
             </title>
-            <path d="M1657.5842,-625.932C1769.9407,-650.4669 1922.8405,-685.0441 2056.6033,-719.4232 2087.9938,-727.4911 2121.9023,-736.911 2152.8906,-745.8009"
-                  fill="none" stroke="#d3d3d3"/>
+            <path d="M1084.0289,-652.7157C1120.1868,-678.149 1161.4701,-707.1875 1195.1559,-730.882" fill="none"
+                  stroke="#d3d3d3"/>
             <polygon fill="#d3d3d3"
-                     points="2152.2643,-749.2627 2162.8423,-748.6662 2154.2011,-742.5359 2152.2643,-749.2627"
+                     points="1193.3557,-733.8948 1203.5486,-736.7854 1197.383,-728.1693 1193.3557,-733.8948"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 14\nUse Vaadin 8\n&#45;&gt;9\nCreate a prototype of such a tool with\n&#45; basic editing functions\n&#45; load and save\n -->
-        <g class="edge" id="edge16">
+        <g class="edge" id="edge17">
             <title>14\nUse Vaadin 8\n-&gt;9\nCreate a prototype of such a tool with\n- basic editing functions\n- load
                 and save\n
             </title>
-            <path d="M691.1522,-742.7823C651.5784,-650.4951 553.3903,-403.8252 607.6033,-345.3849 643.9014,-306.2563 1034.0711,-318.8174 1086.6033,-309.3849 1119.542,-303.4705 1154.5742,-294.6479 1186.9104,-285.4133"
+            <path d="M331.6461,-750.3671C390.3262,-698.5218 517.5303,-580.8429 602.891,-463.4232 637.8577,-415.324 616.07,-377.8513 665.891,-345.3849 755.8794,-286.7429 1042.8652,-331.8875 1147.891,-309.3849 1174.1093,-303.7674 1201.6934,-295.1815 1227.1103,-286.0895"
                   fill="none" stroke="#d3d3d3"/>
             <polygon fill="#d3d3d3"
-                     points="1188.2204,-288.6779 1196.8539,-282.5368 1186.2751,-281.9536 1188.2204,-288.6779"
+                     points="1228.5382,-289.2944 1236.7381,-282.5852 1226.144,-282.7166 1228.5382,-289.2944"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 22\nTry to build the UI with the\nlatest Vaadin LTS version: 14\n(webcomponents, ...)\n -->
         <g class="node" id="node8" onclick="top.taskgraphtool_nodeselected(&quot;22&quot;);">
             <title>22\nTry to build the UI with the\nlatest Vaadin LTS version: 14\n(webcomponents, ...)\n</title>
             <polygon fill="#eee8aa"
-                     points="961.5641,-968.9426 777.6425,-968.9426 777.6425,-893.5421 961.5641,-893.5421 961.5641,-968.9426"
+                     points="569.8518,-968.9426 385.9302,-968.9426 385.9302,-893.5421 569.8518,-893.5421 569.8518,-968.9426"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="869.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="477.891"
                   y="-952.2424">22
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="869.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="477.891"
                   y="-935.4424">Try to build the UI with the
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="869.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="477.891"
                   y="-918.6424">latest Vaadin LTS version: 14
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="869.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="477.891"
                   y="-901.8424">(webcomponents, ...)
             </text>
         </g>
         <!-- 14\nUse Vaadin 8\n&#45;&gt;22\nTry to build the UI with the\nlatest Vaadin LTS version: 14\n(webcomponents, ...)\n -->
-        <g class="edge" id="edge17">
+        <g class="edge" id="edge18">
             <title>14\nUse Vaadin 8\n-&gt;22\nTry to build the UI with the\nlatest Vaadin LTS version:
                 14\n(webcomponents, ...)\n
             </title>
-            <path d="M736.8803,-806.3206C760.7804,-828.8159 794.5637,-860.6135 822.0644,-886.4977" fill="none"
+            <path d="M331.7138,-805.2515C357.9868,-827.8963 395.7879,-860.4773 426.3674,-886.8339" fill="none"
                   stroke="#d3d3d3"/>
-            <polygon fill="#d3d3d3" points="819.9602,-889.3238 829.6409,-893.629 824.7579,-884.2265 819.9602,-889.3238"
+            <polygon fill="#d3d3d3" points="424.1151,-889.5133 433.9749,-893.3908 428.6852,-884.2109 424.1151,-889.5133"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 35\nMake it nicer\n(optical)\n -->
         <g class="node" id="node9" onclick="top.taskgraphtool_nodeselected(&quot;35&quot;);">
             <title>35\nMake it nicer\n(optical)\n</title>
             <polygon fill="#eee8aa"
-                     points="1569.7394,-1114.0629 1479.4671,-1114.0629 1479.4671,-1055.2602 1569.7394,-1055.2602 1569.7394,-1114.0629"
+                     points="525.0271,-1114.0629 434.7549,-1114.0629 434.7549,-1055.2602 525.0271,-1055.2602 525.0271,-1114.0629"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1524.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="479.891"
                   y="-1097.2615">35
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1524.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="479.891"
                   y="-1080.4615">Make it nicer
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1524.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="479.891"
                   y="-1063.6615">(optical)
             </text>
         </g>
         <!-- 22\nTry to build the UI with the\nlatest Vaadin LTS version: 14\n(webcomponents, ...)\n&#45;&gt;35\nMake it nicer\n(optical)\n -->
-        <g class="edge" id="edge18">
+        <g class="edge" id="edge19">
             <title>22\nTry to build the UI with the\nlatest Vaadin LTS version: 14\n(webcomponents, ...)\n-&gt;35\nMake
                 it nicer\n(optical)\n
             </title>
-            <path d="M925.794,-968.8522C939.9402,-976.9607 955.4299,-984.7434 970.6033,-990.2615 1145.6814,-1053.9328 1367.7903,-1075.1399 1469.3729,-1081.8066"
-                  fill="none" stroke="#000000"/>
+            <path d="M478.3854,-969.1662C478.6863,-992.2509 479.0702,-1021.6951 479.375,-1045.076" fill="none"
+                  stroke="#000000"/>
             <polygon fill="#000000"
-                     points="1469.2041,-1085.3028 1479.4057,-1082.4431 1469.6474,-1078.3169 1469.2041,-1085.3028"
+                     points="475.8787,-1045.3938 479.5089,-1055.3473 482.8781,-1045.3025 475.8787,-1045.3938"
                      stroke="#000000"/>
         </g>
         <!-- 39\nMake it really pleasant \nto use\n -->
         <g class="node" id="node10" onclick="top.taskgraphtool_nodeselected(&quot;39&quot;);">
             <title>39\nMake it really pleasant \nto use\n</title>
-            <ellipse cx="2483.6033" cy="-1224.6615" fill="#228b22" rx="104.4493" ry="41.0911" stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2483.6033"
+            <ellipse cx="479.891" cy="-1224.6615" fill="#228b22" rx="104.4493" ry="41.0911" stroke="#000000"/>
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="479.891"
                   y="-1237.2615">39
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2483.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="479.891"
                   y="-1220.4615">Make it really pleasant
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2483.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="479.891"
                   y="-1203.6615">to use
             </text>
         </g>
         <!-- 35\nMake it nicer\n(optical)\n&#45;&gt;39\nMake it really pleasant \nto use\n -->
-        <g class="edge" id="edge19">
+        <g class="edge" id="edge20">
             <title>35\nMake it nicer\n(optical)\n-&gt;39\nMake it really pleasant \nto use\n</title>
-            <path d="M1569.8916,-1091.273C1714.2726,-1112.3505 2166.4415,-1178.3605 2375.5556,-1208.8882" fill="none"
+            <path d="M479.891,-1114.0101C479.891,-1131.0798 479.891,-1153.085 479.891,-1172.97" fill="none"
                   stroke="#000000"/>
             <polygon fill="#000000"
-                     points="2375.231,-1212.3778 2385.6317,-1210.3591 2376.2422,-1205.4512 2375.231,-1212.3778"
+                     points="476.3911,-1173.1379 479.891,-1183.138 483.3911,-1173.138 476.3911,-1173.1379"
                      stroke="#000000"/>
         </g>
         <!-- 12\nUse Kotlin\n&#45;&gt;9\nCreate a prototype of such a tool with\n&#45; basic editing functions\n&#45; load and save\n -->
-        <g class="edge" id="edge20">
+        <g class="edge" id="edge21">
             <title>12\nUse Kotlin\n-&gt;9\nCreate a prototype of such a tool with\n- basic editing functions\n- load and
                 save\n
             </title>
-            <path d="M1196.0546,-739.6025C1184.4837,-661.9542 1166.5127,-481.5802 1221.6033,-345.3849 1229.789,-325.1479 1243.9003,-306.2665 1258.5048,-290.4582"
+            <path d="M716.5933,-745.7653C707.5111,-728.0086 697.5127,-705.1806 692.891,-683.4232 661.2176,-534.3155 629.5918,-437.7041 750.891,-345.3849 821.3815,-291.7355 1061.4228,-328.6308 1147.891,-309.3849 1173.7794,-303.6227 1201.0323,-295.086 1226.2175,-286.0963"
                   fill="none" stroke="#d3d3d3"/>
             <polygon fill="#d3d3d3"
-                     points="1261.3033,-292.5961 1265.6901,-282.9521 1256.2467,-287.7556 1261.3033,-292.5961"
+                     points="1227.5548,-289.3344 1235.7615,-282.6336 1225.1674,-282.7541 1227.5548,-289.3344"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 13\nUse Spring Boot\n&#45;&gt;9\nCreate a prototype of such a tool with\n&#45; basic editing functions\n&#45; load and save\n -->
-        <g class="edge" id="edge21">
+        <g class="edge" id="edge22">
             <title>13\nUse Spring Boot\n-&gt;9\nCreate a prototype of such a tool with\n- basic editing functions\n-
                 load and save\n
             </title>
-            <path d="M1449.796,-752.4076C1471.5618,-740.6612 1498.7632,-727.5451 1524.6033,-719.4232 1575.8421,-703.3181 1728.0151,-723.6509 1763.6033,-683.4232 1813.4658,-627.0602 1801.4043,-384.9012 1769.6033,-345.3849 1728.2216,-293.9635 1555.7453,-267.3982 1434.4482,-254.8118"
+            <path d="M892.531,-753.7206C870.9581,-742.8051 844.828,-730.0062 820.891,-719.4232 780.7329,-701.6686 753.6435,-719.6891 728.891,-683.4232 682.7898,-615.8785 689.4095,-571.0389 728.891,-499.4232 827.6124,-320.3519 951.1064,-364.9571 1147.891,-309.3849 1171.5218,-302.7115 1196.5192,-294.4412 1220.0732,-286.0742"
                   fill="none" stroke="#d3d3d3"/>
             <polygon fill="#d3d3d3"
-                     points="1434.6468,-251.314 1424.3437,-253.7832 1433.9378,-258.278 1434.6468,-251.314"
+                     points="1221.4882,-289.2851 1229.7193,-282.6143 1219.1248,-282.6961 1221.4882,-289.2851"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 15\nUse https://github.com/nidi3/graphviz&#45;java\nfor visualization / auto&#45;layouting\n&#45;&gt;9\nCreate a prototype of such a tool with\n&#45; basic editing functions\n&#45; load and save\n -->
-        <g class="edge" id="edge22">
+        <g class="edge" id="edge23">
             <title>15\nUse https://github.com/nidi3/graphviz-java\nfor visualization / auto-layouting\n-&gt;9\nCreate a
                 prototype of such a tool with\n- basic editing functions\n- load and save\n
             </title>
-            <path d="M1810.935,-723.8834C1840.8327,-634.3406 1884.1224,-454.1245 1795.6033,-345.3849 1750.9076,-290.4793 1563.0474,-264.6312 1434.6891,-253.1761"
+            <path d="M2355.423,-723.1429C2380.956,-631.6874 2415.519,-447.6781 2318.891,-345.3849 2260.2475,-283.3031 1703.0421,-257.2452 1449.9247,-248.5447"
                   fill="none" stroke="#d3d3d3"/>
             <polygon fill="#d3d3d3"
-                     points="1434.6625,-249.6606 1424.3958,-252.2769 1434.0532,-256.634 1434.6625,-249.6606"
+                     points="1449.6897,-245.0348 1439.5765,-248.1929 1449.4517,-252.0307 1449.6897,-245.0348"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 23\nWhere are the limits of graphviz&#45;java\n(number of nodes, number of connections)?\n -->
         <g class="node" id="node14" onclick="top.taskgraphtool_nodeselected(&quot;23&quot;);">
             <title>23\nWhere are the limits of graphviz-java\n(number of nodes, number of connections)?\n</title>
             <polygon fill="#eee8aa"
-                     points="2315.0207,-960.6437 2054.1859,-960.6437 2054.1859,-901.841 2315.0207,-901.841 2315.0207,-960.6437"
+                     points="2468.3084,-960.6437 2207.4736,-960.6437 2207.4736,-901.841 2468.3084,-901.841 2468.3084,-960.6437"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2184.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2337.891"
                   y="-943.8424">23
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2184.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2337.891"
                   y="-927.0424">Where are the limits of graphviz-java
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2184.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2337.891"
                   y="-910.2424">(number of nodes, number of connections)?
             </text>
         </g>
         <!-- 15\nUse https://github.com/nidi3/graphviz&#45;java\nfor visualization / auto&#45;layouting\n&#45;&gt;23\nWhere are the limits of graphviz&#45;java\n(number of nodes, number of connections)?\n -->
-        <g class="edge" id="edge23">
+        <g class="edge" id="edge24">
             <title>15\nUse https://github.com/nidi3/graphviz-java\nfor visualization / auto-layouting\n-&gt;23\nWhere
                 are the limits of graphviz-java\n(number of nodes, number of connections)?\n
             </title>
-            <path d="M1890.1981,-813.7102C1937.2096,-830.9376 1993.9816,-852.157 2044.6033,-872.2232 2065.1232,-880.3572 2087.1875,-889.48 2107.5939,-898.0759"
-                  fill="none" stroke="#d3d3d3"/>
+            <path d="M2337.891,-836.2621C2337.891,-854.7752 2337.891,-874.7959 2337.891,-891.6612" fill="none"
+                  stroke="#d3d3d3"/>
             <polygon fill="#d3d3d3"
-                     points="2106.2678,-901.3151 2116.8416,-901.9828 2108.9921,-894.867 2106.2678,-901.3151"
+                     points="2334.3911,-891.7127 2337.891,-901.7127 2341.3911,-891.7127 2334.3911,-891.7127"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 24\nEvaluate other Graph visualization \ntools/libraries with auto&#45;layouting\n -->
         <g class="node" id="node15" onclick="top.taskgraphtool_nodeselected(&quot;24&quot;);">
             <title>24\nEvaluate other Graph visualization \ntools/libraries with auto-layouting\n</title>
             <polygon fill="#eee8aa"
-                     points="1321.87,-960.6437 1107.3365,-960.6437 1107.3365,-901.841 1321.87,-901.841 1321.87,-960.6437"
+                     points="2701.1578,-960.6437 2486.6242,-960.6437 2486.6242,-901.841 2701.1578,-901.841 2701.1578,-960.6437"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1214.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2593.891"
                   y="-943.8424">24
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1214.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2593.891"
                   y="-927.0424">Evaluate other Graph visualization
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1214.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2593.891"
                   y="-910.2424">tools/libraries with auto-layouting
             </text>
         </g>
         <!-- 15\nUse https://github.com/nidi3/graphviz&#45;java\nfor visualization / auto&#45;layouting\n&#45;&gt;24\nEvaluate other Graph visualization \ntools/libraries with auto&#45;layouting\n -->
-        <g class="edge" id="edge24">
+        <g class="edge" id="edge25">
             <title>15\nUse https://github.com/nidi3/graphviz-java\nfor visualization / auto-layouting\n-&gt;24\nEvaluate
                 other Graph visualization \ntools/libraries with auto-layouting\n
             </title>
-            <path d="M1661.9131,-806.9642C1618.3758,-816.5864 1569.4371,-827.1443 1524.6033,-836.2232 1438.6536,-853.6282 1413.6487,-844.0501 1330.6033,-872.2232 1311.3795,-878.7449 1291.3622,-887.9577 1273.4759,-897.1698"
-                  fill="none" stroke="#d3d3d3"/>
+            <path d="M2408.5218,-820.1518C2448.6666,-844.2103 2498.304,-873.9577 2536.108,-896.6134" fill="none"
+                  stroke="#d3d3d3"/>
             <polygon fill="#d3d3d3"
-                     points="1271.5576,-894.2239 1264.3322,-901.9727 1274.8128,-900.421 1271.5576,-894.2239"
+                     points="2534.5841,-899.7805 2544.9609,-901.9189 2538.1825,-893.7762 2534.5841,-899.7805"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 16\nUse other typical libraries\nlike guava, apache commons, ...\n&#45;&gt;9\nCreate a prototype of such a tool with\n&#45; basic editing functions\n&#45; load and save\n -->
-        <g class="edge" id="edge25">
+        <g class="edge" id="edge26">
             <title>16\nUse other typical libraries\nlike guava, apache commons, ...\n-&gt;9\nCreate a prototype of such
                 a tool with\n- basic editing functions\n- load and save\n
             </title>
-            <path d="M2228.0255,-729.2342C2163.9902,-637.9169 2012.2129,-441.2714 1832.6033,-345.3849 1765.1588,-309.3789 1566.3646,-277.8877 1434.4906,-260.1492"
-                  fill="none" stroke="#d3d3d3"/>
-            <polygon fill="#d3d3d3" points="1434.699,-256.646 1424.3236,-258.791 1433.7721,-263.5844 1434.699,-256.646"
+            <path d="M1268.6625,-721.4373C1281.3115,-616.1089 1308.3157,-391.2454 1320.1423,-292.7659" fill="none"
+                  stroke="#d3d3d3"/>
+            <polygon fill="#d3d3d3"
+                     points="1323.6222,-293.1423 1321.3396,-282.7963 1316.6721,-292.3076 1323.6222,-293.1423"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 25\nDecide to continue the\nwork on the tool or stop\n -->
         <g class="node" id="node21" onclick="top.taskgraphtool_nodeselected(&quot;25&quot;);">
             <title>25\nDecide to continue the\nwork on the tool or stop\n</title>
             <polygon fill="#ffd700"
-                     points="2483.6033,-989.5425 2333.3043,-931.2424 2483.6033,-872.9422 2633.9022,-931.2424 2483.6033,-989.5425"
+                     points="865.891,-989.5425 715.5921,-931.2424 865.891,-872.9422 1016.1899,-931.2424 865.891,-989.5425"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2483.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="865.891"
                   y="-943.8424">25
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2483.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="865.891"
                   y="-927.0424">Decide to continue the
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2483.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="865.891"
                   y="-910.2424">work on the tool or stop
             </text>
         </g>
         <!-- 21\nValidate if the prototype\nachieves the original goals\nand solves the mentioned problems\n&#45;&gt;25\nDecide to continue the\nwork on the tool or stop\n -->
-        <g class="edge" id="edge26">
+        <g class="edge" id="edge27">
             <title>21\nValidate if the prototype\nachieves the original goals\nand solves the mentioned problems\n-&gt;25\nDecide
                 to continue the\nwork on the tool or stop\n
             </title>
-            <path d="M2391.1815,-629.2309C2417.8368,-652.1676 2448.3054,-683.839 2464.6033,-719.4232 2485.3842,-764.7957 2489.5177,-821.3046 2488.7899,-864.5418"
+            <path d="M1460.3804,-629.2787C1484.8421,-682.7103 1517.7123,-779.9888 1465.891,-836.2232 1432.6501,-872.2949 1073.7875,-861.6377 1025.891,-872.2232 999.359,-878.087 971.287,-887.3316 946.1892,-896.7795"
                   fill="none" stroke="#000000"/>
-            <polygon fill="#000000"
-                     points="2485.2877,-864.5847 2488.5272,-874.6721 2492.2853,-864.7663 2485.2877,-864.5847"
+            <polygon fill="#000000" points="944.8121,-893.5589 936.7252,-900.4038 947.3155,-900.0959 944.8121,-893.5589"
                      stroke="#000000"/>
         </g>
         <!-- 25\nDecide to continue the\nwork on the tool or stop\n&#45;&gt;35\nMake it nicer\n(optical)\n -->
-        <g class="edge" id="edge30">
+        <g class="edge" id="edge31">
             <title>25\nDecide to continue the\nwork on the tool or stop\n-&gt;35\nMake it nicer\n(optical)\n</title>
-            <path d="M2412.34,-962.0915C2385.0611,-972.6807 2353.3503,-983.5463 2323.6033,-990.2615 2151.2154,-1029.1771 2103.1149,-1005.5816 1927.6033,-1026.2615 1802.9592,-1040.9479 1657.3849,-1063.3499 1579.8515,-1075.7037"
+            <path d="M792.1984,-961.0541C765.5892,-971.1623 735.1468,-981.9796 706.891,-990.2615 634.8628,-1011.3735 608.2877,-991.2579 541.891,-1026.2615 531.1608,-1031.9184 520.9412,-1039.9464 512.0067,-1048.245"
                   fill="none" stroke="#000000"/>
             <polygon fill="#000000"
-                     points="1579.1502,-1072.2712 1569.8277,-1077.3053 1580.2547,-1079.1836 1579.1502,-1072.2712"
+                     points="509.5496,-1045.7524 504.821,-1055.2335 514.43,-1050.7705 509.5496,-1045.7524"
                      stroke="#000000"/>
         </g>
         <!-- 26\nAdd better support for \nmultiuser usage\n -->
         <g class="node" id="node22" onclick="top.taskgraphtool_nodeselected(&quot;26&quot;);">
             <title>26\nAdd better support for \nmultiuser usage\n</title>
             <polygon fill="#eee8aa"
-                     points="2936.8982,-1114.0629 2792.3084,-1114.0629 2792.3084,-1055.2602 2936.8982,-1055.2602 2936.8982,-1114.0629"
+                     points="1592.1859,-1114.0629 1447.5961,-1114.0629 1447.5961,-1055.2602 1592.1859,-1055.2602 1592.1859,-1114.0629"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2864.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1519.891"
                   y="-1097.2615">26
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2864.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1519.891"
                   y="-1080.4615">Add better support for
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2864.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1519.891"
                   y="-1063.6615">multiuser usage
             </text>
         </g>
         <!-- 25\nDecide to continue the\nwork on the tool or stop\n&#45;&gt;26\nAdd better support for \nmultiuser usage\n -->
-        <g class="edge" id="edge27">
+        <g class="edge" id="edge28">
             <title>25\nDecide to continue the\nwork on the tool or stop\n-&gt;26\nAdd better support for \nmultiuser
                 usage\n
             </title>
-            <path d="M2561.1245,-959.6417C2610.4684,-978.0096 2675.5912,-1002.7903 2732.6033,-1026.2615 2751.621,-1034.0909 2772.0115,-1042.9024 2790.94,-1051.2616"
+            <path d="M938.5936,-961.5446C965.6268,-971.8809 996.8012,-982.72 1025.891,-990.2615 1126.897,-1016.4473 1155.3578,-1006.9004 1257.891,-1026.2615 1318.4424,-1037.6953 1386.3409,-1052.8981 1437.8423,-1064.926"
                   fill="none" stroke="#000000"/>
             <polygon fill="#000000"
-                     points="2789.5418,-1054.4703 2800.1023,-1055.3227 2792.3783,-1048.0707 2789.5418,-1054.4703"
+                     points="1437.0544,-1068.3361 1447.5892,-1067.2101 1438.6516,-1061.5207 1437.0544,-1068.3361"
                      stroke="#000000"/>
         </g>
         <!-- 31\nLet it run on top of an \nexisting issue tracker\nlike the one from github\n(e.g. github issues as persistence)\n -->
@@ -699,60 +730,60 @@
                 as persistence)\n
             </title>
             <polygon fill="#eee8aa"
-                     points="2396.7082,-1130.6615 2194.4983,-1130.6615 2194.4983,-1038.6615 2396.7082,-1038.6615 2396.7082,-1130.6615"
+                     points="949.996,-1130.6615 747.786,-1130.6615 747.786,-1038.6615 949.996,-1038.6615 949.996,-1130.6615"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2295.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="848.891"
                   y="-1114.0615">31
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2295.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="848.891"
                   y="-1097.2615">Let it run on top of an
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2295.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="848.891"
                   y="-1080.4615">existing issue tracker
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2295.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="848.891"
                   y="-1063.6615">like the one from github
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2295.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="848.891"
                   y="-1046.8615">(e.g. github issues as persistence)
             </text>
         </g>
         <!-- 25\nDecide to continue the\nwork on the tool or stop\n&#45;&gt;31\nLet it run on top of an \nexisting issue tracker\nlike the one from github\n(e.g. github issues as persistence)\n -->
-        <g class="edge" id="edge28">
+        <g class="edge" id="edge29">
             <title>25\nDecide to continue the\nwork on the tool or stop\n-&gt;31\nLet it run on top of an \nexisting
                 issue tracker\nlike the one from github\n(e.g. github issues as persistence)\n
             </title>
-            <path d="M2434.6992,-971.1509C2411.9235,-989.7373 2384.5187,-1012.1012 2360.078,-1032.0463" fill="none"
+            <path d="M859.6574,-987.4988C858.1773,-1000.8558 856.5983,-1015.1054 855.1186,-1028.46" fill="none"
                   stroke="#000000"/>
             <polygon fill="#000000"
-                     points="2357.7912,-1029.3949 2352.2564,-1038.4292 2362.217,-1034.8183 2357.7912,-1029.3949"
+                     points="851.6323,-1028.1435 854.0096,-1038.4682 858.5897,-1028.9145 851.6323,-1028.1435"
                      stroke="#000000"/>
         </g>
         <!-- 33\nFix existing issues \nfrom the prototype\n -->
         <g class="node" id="node24" onclick="top.taskgraphtool_nodeselected(&quot;33&quot;);">
             <title>33\nFix existing issues \nfrom the prototype\n</title>
             <polygon fill="#eee8aa"
-                     points="2059.0465,-1114.0629 1936.1601,-1114.0629 1936.1601,-1055.2602 2059.0465,-1055.2602 2059.0465,-1114.0629"
+                     points="1249.3342,-1114.0629 1126.4478,-1114.0629 1126.4478,-1055.2602 1249.3342,-1055.2602 1249.3342,-1114.0629"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1997.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1187.891"
                   y="-1097.2615">33
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1997.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1187.891"
                   y="-1080.4615">Fix existing issues
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1997.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1187.891"
                   y="-1063.6615">from the prototype
             </text>
         </g>
         <!-- 25\nDecide to continue the\nwork on the tool or stop\n&#45;&gt;33\nFix existing issues \nfrom the prototype\n -->
-        <g class="edge" id="edge29">
+        <g class="edge" id="edge30">
             <title>25\nDecide to continue the\nwork on the tool or stop\n-&gt;33\nFix existing issues \nfrom the
                 prototype\n
             </title>
-            <path d="M2408.8375,-960.5491C2382.1377,-970.5542 2351.7092,-981.4352 2323.6033,-990.2615 2263.1292,-1009.2526 2246.5524,-1008.8551 2185.6033,-1026.2615 2146.8526,-1037.3283 2103.9143,-1050.5902 2068.867,-1061.6771"
+            <path d="M942.6088,-959.8632C1012.7884,-986.1466 1106.9088,-1021.695 1114.891,-1026.2615 1126.1182,-1032.6845 1137.4299,-1040.7682 1147.6853,-1048.8561"
                   fill="none" stroke="#000000"/>
             <polygon fill="#000000"
-                     points="2067.675,-1058.3832 2059.2012,-1064.7428 2069.7914,-1065.0557 2067.675,-1058.3832"
+                     points="1145.6866,-1051.7412 1155.6617,-1055.3117 1150.0904,-1046.2999 1145.6866,-1051.7412"
                      stroke="#000000"/>
         </g>
         <!-- 38\nMake it more \nadd addictive\n(immedate rewards,\n social incentives,\n progress monitoring)\n -->
@@ -762,582 +793,611 @@
             <g id="a_node25">
                 <a xlink:title="Inspired by &#10;&#10;https://youtu.be/xp0O2vi8DX4&#10;&#10;1. Soziale Anreize (social incentives)&#10;&#10;2. Sofort Belohnungen (immediate rewards)&#10;&#10;3. Fortschritts Kontrolle (Progress monitoring)">
                     <polygon fill="#eee8aa"
-                             points="2552.4122,-1138.9617 2414.7943,-1138.9617 2414.7943,-1030.3613 2552.4122,-1030.3613 2552.4122,-1138.9617"
+                             points="1105.6999,-1138.9617 968.0821,-1138.9617 968.0821,-1030.3613 1105.6999,-1030.3613 1105.6999,-1138.9617"
                              stroke="#000000"/>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2483.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1036.891"
                           y="-1122.4615">38
                     </text>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2483.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1036.891"
                           y="-1105.6615">Make it more
                     </text>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2483.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1036.891"
                           y="-1088.8615">add addictive
                     </text>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2483.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1036.891"
                           y="-1072.0615">(immedate rewards,
                     </text>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2483.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1036.891"
                           y="-1055.2615">social incentives,
                     </text>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2483.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1036.891"
                           y="-1038.4615">progress monitoring)
                     </text>
                 </a>
             </g>
         </g>
         <!-- 25\nDecide to continue the\nwork on the tool or stop\n&#45;&gt;38\nMake it more \nadd addictive\n(immedate rewards,\n social incentives,\n progress monitoring)\n -->
-        <g class="edge" id="edge31">
+        <g class="edge" id="edge32">
             <title>25\nDecide to continue the\nwork on the tool or stop\n-&gt;38\nMake it more \nadd
                 addictive\n(immedate rewards,\n social incentives,\n progress monitoring)\n
             </title>
-            <path d="M2483.6033,-989.6812C2483.6033,-999.5484 2483.6033,-1009.8439 2483.6033,-1019.8616" fill="none"
+            <path d="M911.2669,-971.9531C928.8242,-987.7052 949.3007,-1006.0766 968.5643,-1023.3596" fill="none"
                   stroke="#000000"/>
             <polygon fill="#000000"
-                     points="2480.1034,-1020.1709 2483.6033,-1030.1709 2487.1034,-1020.171 2480.1034,-1020.1709"
+                     points="966.3811,-1026.1031 976.1618,-1030.176 971.0558,-1020.8927 966.3811,-1026.1031"
                      stroke="#000000"/>
         </g>
         <!-- 42\nDecide to offer a cloud \nbased solution (SAAS)\n -->
         <g class="node" id="node26" onclick="top.taskgraphtool_nodeselected(&quot;42&quot;);">
             <title>42\nDecide to offer a cloud \nbased solution (SAAS)\n</title>
             <polygon fill="#ffd700"
-                     points="3248.6033,-1142.9617 3100.0076,-1084.6615 3248.6033,-1026.3614 3397.1989,-1084.6615 3248.6033,-1142.9617"
+                     points="1961.891,-1142.9617 1813.2954,-1084.6615 1961.891,-1026.3614 2110.4866,-1084.6615 1961.891,-1142.9617"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3248.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1961.891"
                   y="-1097.2615">42
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3248.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1961.891"
                   y="-1080.4615">Decide to offer a cloud
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3248.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1961.891"
                   y="-1063.6615">based solution (SAAS)
             </text>
         </g>
         <!-- 25\nDecide to continue the\nwork on the tool or stop\n&#45;&gt;42\nDecide to offer a cloud \nbased solution (SAAS)\n -->
-        <g class="edge" id="edge32">
+        <g class="edge" id="edge33">
             <title>25\nDecide to continue the\nwork on the tool or stop\n-&gt;42\nDecide to offer a cloud \nbased
                 solution (SAAS)\n
             </title>
-            <path d="M2555.2978,-961.9692C2582.2364,-972.4139 2613.4083,-983.2147 2642.6033,-990.2615 2774.4313,-1022.0811 2811.6013,-1005.4151 2945.6033,-1026.2615 3011.1566,-1036.4595 3084.1907,-1050.4568 3142.1289,-1062.1914"
+            <path d="M936.6594,-962.3856C964.0157,-973.0768 995.9076,-983.9348 1025.891,-990.2615 1276.4302,-1043.127 1346.4238,-997.7818 1600.891,-1026.2615 1685.4059,-1035.7204 1780.3125,-1051.2695 1851.5974,-1063.9459"
                   fill="none" stroke="#000000"/>
             <polygon fill="#000000"
-                     points="3141.5315,-1065.6414 3152.0283,-1064.2041 3142.9262,-1058.7818 3141.5315,-1065.6414"
+                     points="1851.036,-1067.401 1861.4957,-1065.7146 1852.2673,-1060.5101 1851.036,-1067.401"
+                     stroke="#000000"/>
+        </g>
+        <!-- 48\nAdd other ideas \nfrom initial\nsketches / asana tasks / email\n -->
+        <g class="node" id="node28" onclick="top.taskgraphtool_nodeselected(&quot;48&quot;);">
+            <title>48\nAdd other ideas \nfrom initial\nsketches / asana tasks / email\n</title>
+            <polygon fill="#eee8aa"
+                     points="729.2796,-1122.3618 550.5024,-1122.3618 550.5024,-1046.9613 729.2796,-1046.9613 729.2796,-1122.3618"
+                     stroke="#000000"/>
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="639.891"
+                  y="-1105.6615">48
+            </text>
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="639.891"
+                  y="-1088.8615">Add other ideas
+            </text>
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="639.891"
+                  y="-1072.0615">from initial
+            </text>
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="639.891"
+                  y="-1055.2615">sketches / asana tasks / email
+            </text>
+        </g>
+        <!-- 25\nDecide to continue the\nwork on the tool or stop\n&#45;&gt;48\nAdd other ideas \nfrom initial\nsketches / asana tasks / email\n -->
+        <g class="edge" id="edge34">
+            <title>25\nDecide to continue the\nwork on the tool or stop\n-&gt;48\nAdd other ideas \nfrom
+                initial\nsketches / asana tasks / email\n
+            </title>
+            <path d="M811.1827,-968.3809C778.9076,-990.2907 737.8958,-1018.1314 704.0941,-1041.0775" fill="none"
+                  stroke="#000000"/>
+            <polygon fill="#000000"
+                     points="701.9734,-1038.2868 695.6655,-1046.7992 705.9051,-1044.0784 701.9734,-1038.2868"
                      stroke="#000000"/>
         </g>
         <!-- 38\nMake it more \nadd addictive\n(immedate rewards,\n social incentives,\n progress monitoring)\n&#45;&gt;39\nMake it really pleasant \nto use\n -->
-        <g class="edge" id="edge33">
+        <g class="edge" id="edge35">
             <title>38\nMake it more \nadd addictive\n(immedate rewards,\n social incentives,\n progress monitoring)\n-&gt;39\nMake
                 it really pleasant \nto use\n
             </title>
-            <path d="M2483.6033,-1139.1901C2483.6033,-1150.2447 2483.6033,-1161.8412 2483.6033,-1172.8007" fill="none"
-                  stroke="#000000"/>
+            <path d="M968.1706,-1138.6435C965.0987,-1140.2431 961.9997,-1141.7262 958.891,-1143.0615 894.2437,-1170.83 710.4679,-1197.0567 590.2611,-1211.9608"
+                  fill="none" stroke="#000000"/>
             <polygon fill="#000000"
-                     points="2480.1034,-1173.0744 2483.6033,-1183.0744 2487.1034,-1173.0744 2480.1034,-1173.0744"
+                     points="589.775,-1208.4941 580.278,-1213.1907 590.6309,-1215.4416 589.775,-1208.4941"
                      stroke="#000000"/>
         </g>
         <!-- 43\nFigure out which \ncloud provider\n\nAWS, Google, Heroku, ...\n -->
         <g class="node" id="node27" onclick="top.taskgraphtool_nodeselected(&quot;43&quot;);">
             <title>43\nFigure out which \ncloud provider\n\nAWS, Google, Heroku, ...\n</title>
             <polygon fill="#eee8aa"
-                     points="3329.4008,-1270.3617 3167.8057,-1270.3617 3167.8057,-1178.9613 3329.4008,-1178.9613 3329.4008,-1270.3617"
+                     points="2042.6885,-1270.3617 1881.0935,-1270.3617 1881.0935,-1178.9613 2042.6885,-1178.9613 2042.6885,-1270.3617"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3248.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1961.891"
                   y="-1253.6615">43
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3248.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1961.891"
                   y="-1236.8615">Figure out which
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3248.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1961.891"
                   y="-1220.0615">cloud provider
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3248.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1961.891"
                   y="-1187.2615">AWS, Google, Heroku, ...
             </text>
         </g>
         <!-- 42\nDecide to offer a cloud \nbased solution (SAAS)\n&#45;&gt;43\nFigure out which \ncloud provider\n\nAWS, Google, Heroku, ...\n -->
-        <g class="edge" id="edge34">
+        <g class="edge" id="edge36">
             <title>42\nDecide to offer a cloud \nbased solution (SAAS)\n-&gt;43\nFigure out which \ncloud
                 provider\n\nAWS, Google, Heroku, ...\n
             </title>
-            <path d="M3248.6033,-1143.223C3248.6033,-1151.6396 3248.6033,-1160.283 3248.6033,-1168.6485" fill="none"
+            <path d="M1961.891,-1143.223C1961.891,-1151.6396 1961.891,-1160.283 1961.891,-1168.6485" fill="none"
                   stroke="#000000"/>
             <polygon fill="#000000"
-                     points="3245.1034,-1168.6809 3248.6033,-1178.6809 3252.1034,-1168.681 3245.1034,-1168.6809"
+                     points="1958.3911,-1168.6809 1961.891,-1178.6809 1965.3911,-1168.681 1958.3911,-1168.6809"
                      stroke="#000000"/>
         </g>
         <!-- 3\nGoals and problems are not first\nclass citizens in current issue trackers\nlike Jira, Github Issues, Asana, ...\n -->
-        <g class="node" id="node29" onclick="top.taskgraphtool_nodeselected(&quot;3&quot;);">
+        <g class="node" id="node31" onclick="top.taskgraphtool_nodeselected(&quot;3&quot;);">
             <title>3\nGoals and problems are not first\nclass citizens in current issue trackers\nlike Jira, Github
                 Issues, Asana, ...\n
             </title>
             <polygon fill="#dc143c"
-                     points="355.3099,-59.067 320.1129,-109.0141 177.6033,-131.2426 35.0936,-109.0141 -.1033,-59.067 98.5164,-19.0126 256.6901,-19.0126 355.3099,-59.067"
+                     points="894.5976,-59.067 859.4006,-109.0141 716.891,-131.2426 574.3814,-109.0141 539.1844,-59.067 637.8041,-19.0126 795.9779,-19.0126 894.5976,-59.067"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="177.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="716.891"
                   y="-93.2043">3
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="177.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="716.891"
                   y="-76.4043">Goals and problems are not first
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="177.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="716.891"
                   y="-59.6043">class citizens in current issue trackers
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="177.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="716.891"
                   y="-42.8043">like Jira, Github Issues, Asana, ...
             </text>
         </g>
         <!-- 6\nWhy &#45; How &#45; What\n\nFind answers to these questions\nin a fast an convenient way\n -->
-        <g class="node" id="node30" onclick="top.taskgraphtool_nodeselected(&quot;6&quot;);">
+        <g class="node" id="node32" onclick="top.taskgraphtool_nodeselected(&quot;6&quot;);">
             <title>6\nWhy - How - What\n\nFind answers to these questions\nin a fast an convenient way\n</title>
-            <ellipse cx="177.6033" cy="-244.8967" fill="#228b22" rx="136.866" ry="64.4763" stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="177.6033"
+            <ellipse cx="716.891" cy="-244.8967" fill="#228b22" rx="136.866" ry="64.4763" stroke="#000000"/>
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="716.891"
                   y="-273.8967">6
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="177.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="716.891"
                   y="-257.0967">Why - How - What
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="177.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="716.891"
                   y="-224.2967">Find answers to these questions
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="177.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="716.891"
                   y="-207.4967">in a fast an convenient way
             </text>
         </g>
         <!-- 3\nGoals and problems are not first\nclass citizens in current issue trackers\nlike Jira, Github Issues, Asana, ...\n&#45;&gt;6\nWhy &#45; How &#45; What\n\nFind answers to these questions\nin a fast an convenient way\n -->
-        <g class="edge" id="edge35">
+        <g class="edge" id="edge37">
             <title>3\nGoals and problems are not first\nclass citizens in current issue trackers\nlike Jira, Github
                 Issues, Asana, ...\n-&gt;6\nWhy - How - What\n\nFind answers to these questions\nin a fast an convenient
                 way\n
             </title>
-            <path d="M177.6033,-131.6352C177.6033,-144.0299 177.6033,-157.2467 177.6033,-170.1146" fill="none"
+            <path d="M716.891,-131.6352C716.891,-144.0299 716.891,-157.2467 716.891,-170.1146" fill="none"
                   stroke="#000000" stroke-dasharray="5,2"/>
-            <polygon fill="#000000" points="174.1034,-170.3372 177.6033,-180.3373 181.1034,-170.3373 174.1034,-170.3372"
+            <polygon fill="#000000" points="713.3911,-170.3372 716.891,-180.3373 720.3911,-170.3373 713.3911,-170.3372"
                      stroke="#000000"/>
         </g>
         <!-- 6\nWhy &#45; How &#45; What\n\nFind answers to these questions\nin a fast an convenient way\n&#45;&gt;8\nSimplify communication\nbetween team members\n -->
-        <g class="edge" id="edge36">
+        <g class="edge" id="edge38">
             <title>6\nWhy - How - What\n\nFind answers to these questions\nin a fast an convenient way\n-&gt;8\nSimplify
                 communication\nbetween team members\n
             </title>
-            <path d="M263.6075,-295.1469C301.7892,-317.4556 346.107,-343.3494 382.0128,-364.3283" fill="none"
+            <path d="M639.3054,-298.0104C608.7012,-318.9614 574.0493,-342.6834 545.2442,-362.4028" fill="none"
                   stroke="#000000"/>
-            <polygon fill="#000000" points="380.5513,-367.528 390.9513,-369.5508 384.0827,-361.484 380.5513,-367.528"
+            <polygon fill="#000000" points="543.1689,-359.5819 536.8944,-368.119 547.1232,-365.3581 543.1689,-359.5819"
                      stroke="#000000"/>
         </g>
         <!-- 4\nCurrent issue tracker tools \nare either slow to use\nor require a lot of mandatory data\n -->
-        <g class="node" id="node31" onclick="top.taskgraphtool_nodeselected(&quot;4&quot;);">
+        <g class="node" id="node33" onclick="top.taskgraphtool_nodeselected(&quot;4&quot;);">
             <title>4\nCurrent issue tracker tools \nare either slow to use\nor require a lot of mandatory data\n</title>
             <polygon fill="#dc143c"
-                     points="845.0475,-59.067 813.2696,-109.0141 684.6033,-131.2426 555.937,-109.0141 524.159,-59.067 613.1989,-19.0126 756.0077,-19.0126 845.0475,-59.067"
+                     points="521.3352,-59.067 489.5573,-109.0141 360.891,-131.2426 232.2247,-109.0141 200.4468,-59.067 289.4866,-19.0126 432.2954,-19.0126 521.3352,-59.067"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="684.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="360.891"
                   y="-93.2043">4
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="684.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="360.891"
                   y="-76.4043">Current issue tracker tools
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="684.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="360.891"
                   y="-59.6043">are either slow to use
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="684.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="360.891"
                   y="-42.8043">or require a lot of mandatory data
             </text>
         </g>
         <!-- 7\nHave a very fast way \nto model the items \nof your project\n -->
-        <g class="node" id="node32" onclick="top.taskgraphtool_nodeselected(&quot;7&quot;);">
+        <g class="node" id="node34" onclick="top.taskgraphtool_nodeselected(&quot;7&quot;);">
             <title>7\nHave a very fast way \nto model the items \nof your project\n</title>
-            <ellipse cx="684.6033" cy="-244.8967" fill="#228b22" rx="97.1769" ry="53.3494" stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="684.6033"
+            <ellipse cx="464.891" cy="-244.8967" fill="#228b22" rx="97.1769" ry="53.3494" stroke="#000000"/>
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="464.891"
                   y="-265.8967">7
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="684.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="464.891"
                   y="-249.0967">Have a very fast way
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="684.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="464.891"
                   y="-232.2967">to model the items
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="684.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="464.891"
                   y="-215.4967">of your project
             </text>
         </g>
         <!-- 4\nCurrent issue tracker tools \nare either slow to use\nor require a lot of mandatory data\n&#45;&gt;7\nHave a very fast way \nto model the items \nof your project\n -->
-        <g class="edge" id="edge37">
+        <g class="edge" id="edge39">
             <title>4\nCurrent issue tracker tools \nare either slow to use\nor require a lot of mandatory data\n-&gt;7\nHave
                 a very fast way \nto model the items \nof your project\n
             </title>
-            <path d="M684.6033,-131.6352C684.6033,-147.7946 684.6033,-165.3514 684.6033,-181.7105" fill="none"
+            <path d="M393.2272,-125.8986C404.603,-144.7883 417.4513,-166.123 429.0953,-185.4578" fill="none"
                   stroke="#000000" stroke-dasharray="5,2"/>
-            <polygon fill="#000000" points="681.1034,-181.7183 684.6033,-191.7184 688.1034,-181.7184 681.1034,-181.7183"
+            <polygon fill="#000000" points="426.1936,-187.4238 434.3509,-194.1847 432.1901,-183.8125 426.1936,-187.4238"
                      stroke="#000000"/>
         </g>
         <!-- 7\nHave a very fast way \nto model the items \nof your project\n&#45;&gt;8\nSimplify communication\nbetween team members\n -->
-        <g class="edge" id="edge38">
+        <g class="edge" id="edge40">
             <title>7\nHave a very fast way \nto model the items \nof your project\n-&gt;8\nSimplify
                 communication\nbetween team members\n
             </title>
-            <path d="M623.4282,-286.5971C589.2234,-309.9129 546.7042,-338.8964 512.3995,-362.2803" fill="none"
+            <path d="M471.2177,-298.0104C473.3294,-315.7377 475.6773,-335.4491 477.7728,-353.0409" fill="none"
                   stroke="#000000"/>
-            <polygon fill="#000000" points="510.1565,-359.5734 503.865,-368.0979 514.0993,-365.3574 510.1565,-359.5734"
+            <polygon fill="#000000" points="474.3154,-353.607 478.9737,-363.1227 481.2662,-352.7789 474.3154,-353.607"
                      stroke="#000000"/>
         </g>
         <!-- 19\nSupport natural when/then \n(temporal) thinking\n -->
-        <g class="node" id="node33" onclick="top.taskgraphtool_nodeselected(&quot;19&quot;);">
+        <g class="node" id="node35" onclick="top.taskgraphtool_nodeselected(&quot;19&quot;);">
             <title>19\nSupport natural when/then \n(temporal) thinking\n</title>
-            <g id="a_node33">
+            <g id="a_node35">
                 <a xlink:title="First, we need to to this and this.&#10;Then we can do this, then this.">
-                    <ellipse cx="450.6033" cy="-244.8967" fill="#228b22" rx="118.619" ry="41.0911" stroke="#000000"/>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="450.6033"
+                    <ellipse cx="230.891" cy="-244.8967" fill="#228b22" rx="118.619" ry="41.0911" stroke="#000000"/>
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="230.891"
                           y="-257.4967">19
                     </text>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="450.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="230.891"
                           y="-240.6967">Support natural when/then
                     </text>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="450.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="230.891"
                           y="-223.8967">(temporal) thinking
                     </text>
                 </a>
             </g>
         </g>
         <!-- 19\nSupport natural when/then \n(temporal) thinking\n&#45;&gt;8\nSimplify communication\nbetween team members\n -->
-        <g class="edge" id="edge39">
+        <g class="edge" id="edge41">
             <title>19\nSupport natural when/then \n(temporal) thinking\n-&gt;8\nSimplify communication\nbetween team
                 members\n
             </title>
-            <path d="M450.6033,-286.389C450.6033,-306.6173 450.6033,-331.1491 450.6033,-352.595" fill="none"
+            <path d="M288.3006,-281.0914C327.1468,-305.5825 378.532,-337.979 418.8849,-363.42" fill="none"
                   stroke="#000000"/>
-            <polygon fill="#000000" points="447.1034,-352.8427 450.6033,-362.8427 454.1034,-352.8428 447.1034,-352.8427"
+            <polygon fill="#000000" points="417.2543,-366.5295 427.5801,-368.9021 420.9876,-360.6081 417.2543,-366.5295"
                      stroke="#000000"/>
         </g>
         <!-- 27\nNotification for the \nuser if an other user \nupdates the model\n(with e.g. refresh button)\n -->
-        <g class="node" id="node34" onclick="top.taskgraphtool_nodeselected(&quot;27&quot;);">
+        <g class="node" id="node36" onclick="top.taskgraphtool_nodeselected(&quot;27&quot;);">
             <title>27\nNotification for the \nuser if an other user \nupdates the model\n(with e.g. refresh button)\n
             </title>
             <polygon fill="#eee8aa"
-                     points="3161.1643,-977.2424 3006.0422,-977.2424 3006.0422,-885.2424 3161.1643,-885.2424 3161.1643,-977.2424"
+                     points="1681.452,-977.2424 1526.33,-977.2424 1526.33,-885.2424 1681.452,-885.2424 1681.452,-977.2424"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3083.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1603.891"
                   y="-960.6424">27
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3083.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1603.891"
                   y="-943.8424">Notification for the
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3083.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1603.891"
                   y="-927.0424">user if an other user
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3083.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1603.891"
                   y="-910.2424">updates the model
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3083.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1603.891"
                   y="-893.4424">(with e.g. refresh button)
             </text>
         </g>
         <!-- 27\nNotification for the \nuser if an other user \nupdates the model\n(with e.g. refresh button)\n&#45;&gt;26\nAdd better support for \nmultiuser usage\n -->
-        <g class="edge" id="edge40">
+        <g class="edge" id="edge42">
             <title>27\nNotification for the \nuser if an other user \nupdates the model\n(with e.g. refresh button)\n-&gt;26\nAdd
                 better support for \nmultiuser usage\n
             </title>
-            <path d="M3017.896,-977.2732C2984.8439,-1000.4277 2945.4182,-1028.0471 2914.8275,-1049.4772" fill="none"
+            <path d="M1578.6882,-977.2732C1566.6487,-999.2623 1552.4045,-1025.2783 1540.9517,-1046.1959" fill="none"
                   stroke="#000000"/>
             <polygon fill="#000000"
-                     points="2912.6283,-1046.7444 2906.4462,-1055.3487 2916.6447,-1052.4776 2912.6283,-1046.7444"
+                     points="1537.7994,-1044.6654 1536.0668,-1055.1177 1543.9393,-1048.0272 1537.7994,-1044.6654"
                      stroke="#000000"/>
         </g>
         <!-- 28\nFirst simple \nAutosave feature\n -->
-        <g class="node" id="node35" onclick="top.taskgraphtool_nodeselected(&quot;28&quot;);">
+        <g class="node" id="node37" onclick="top.taskgraphtool_nodeselected(&quot;28&quot;);">
             <title>28\nFirst simple \nAutosave feature\n</title>
             <polygon fill="none"
-                     points="1366.3301,-101.6057 1254.8764,-101.6057 1254.8764,-42.8029 1366.3301,-42.8029 1366.3301,-101.6057"
+                     points="1384.6178,-101.6057 1273.1642,-101.6057 1273.1642,-42.8029 1384.6178,-42.8029 1384.6178,-101.6057"
                      stroke="#d3d3d3"/>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1310.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1328.891"
                   y="-84.8043">28
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1310.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1328.891"
                   y="-68.0043">First simple
             </text>
-            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1310.6033"
+            <text fill="#c0c0c0" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1328.891"
                   y="-51.2043">Autosave feature
             </text>
         </g>
         <!-- 28\nFirst simple \nAutosave feature\n&#45;&gt;9\nCreate a prototype of such a tool with\n&#45; basic editing functions\n&#45; load and save\n -->
-        <g class="edge" id="edge41">
+        <g class="edge" id="edge43">
             <title>28\nFirst simple \nAutosave feature\n-&gt;9\nCreate a prototype of such a tool with\n- basic editing
                 functions\n- load and save\n
             </title>
-            <path d="M1310.6033,-101.4992C1310.6033,-127.6092 1310.6033,-166.3168 1310.6033,-196.9374" fill="none"
+            <path d="M1328.3821,-101.4992C1327.9285,-127.6092 1327.2561,-166.3168 1326.7241,-196.9374" fill="none"
                   stroke="#d3d3d3"/>
             <polygon fill="#d3d3d3"
-                     points="1307.1034,-196.9819 1310.6033,-206.982 1314.1034,-196.982 1307.1034,-196.9819"
+                     points="1323.224,-196.9226 1326.5497,-206.982 1330.2229,-197.0443 1323.224,-196.9226"
                      stroke="#d3d3d3"/>
         </g>
         <!-- 30\nAdd &quot;users concept&quot;\n&#45; assign a task to me / a user\n&#45; list of my tasks\n&#45; ...\n -->
-        <g class="node" id="node36" onclick="top.taskgraphtool_nodeselected(&quot;30&quot;);">
+        <g class="node" id="node38" onclick="top.taskgraphtool_nodeselected(&quot;30&quot;);">
             <title>30\nAdd "users concept"\n- assign a task to me / a user\n- list of my tasks\n- ...\n</title>
             <polygon fill="#eee8aa"
-                     points="2825.4435,-977.2424 2651.763,-977.2424 2651.763,-885.2424 2825.4435,-885.2424 2825.4435,-977.2424"
+                     points="1873.7313,-977.2424 1700.0507,-977.2424 1700.0507,-885.2424 1873.7313,-885.2424 1873.7313,-977.2424"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2738.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1786.891"
                   y="-960.6424">30
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2738.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1786.891"
                   y="-943.8424">Add "users concept"
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2738.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1786.891"
                   y="-927.0424">- assign a task to me / a user
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2738.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1786.891"
                   y="-910.2424">- list of my tasks
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2738.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1786.891"
                   y="-893.4424">- ...
             </text>
         </g>
         <!-- 30\nAdd &quot;users concept&quot;\n&#45; assign a task to me / a user\n&#45; list of my tasks\n&#45; ...\n&#45;&gt;26\nAdd better support for \nmultiuser usage\n -->
-        <g class="edge" id="edge42">
+        <g class="edge" id="edge44">
             <title>30\nAdd "users concept"\n- assign a task to me / a user\n- list of my tasks\n- ...\n-&gt;26\nAdd
                 better support for \nmultiuser usage\n
             </title>
-            <path d="M2776.4074,-977.2732C2794.7906,-999.6568 2816.6006,-1026.2129 2833.9326,-1047.3165" fill="none"
-                  stroke="#000000"/>
+            <path d="M1712.6768,-977.3412C1705.3433,-981.7539 1697.9898,-986.123 1690.891,-990.2615 1655.6776,-1010.7905 1615.8335,-1032.8527 1583.4702,-1050.4826"
+                  fill="none" stroke="#000000"/>
             <polygon fill="#000000"
-                     points="2831.288,-1049.6112 2840.3395,-1055.1177 2836.6975,-1045.1685 2831.288,-1049.6112"
+                     points="1581.6638,-1047.4808 1574.5505,-1055.3327 1585.0077,-1053.6305 1581.6638,-1047.4808"
                      stroke="#000000"/>
         </g>
         <!-- 32\nSecurity framework \nof XStream not initialized, \nXStream is probably vulnerable.\n -->
-        <g class="node" id="node37" onclick="top.taskgraphtool_nodeselected(&quot;32&quot;);">
+        <g class="node" id="node39" onclick="top.taskgraphtool_nodeselected(&quot;32&quot;);">
             <title>32\nSecurity framework \nof XStream not initialized, \nXStream is probably vulnerable.\n</title>
             <polygon fill="#dc143c"
-                     points="2035.8123,-918.1051 2005.0713,-968.0522 1880.6033,-990.2807 1756.1353,-968.0522 1725.3942,-918.1051 1811.5287,-878.0507 1949.6778,-878.0507 2035.8123,-918.1051"
+                     points="1345.1,-918.1051 1314.359,-968.0522 1189.891,-990.2807 1065.423,-968.0522 1034.682,-918.1051 1120.8165,-878.0507 1258.9655,-878.0507 1345.1,-918.1051"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1880.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1189.891"
                   y="-952.2424">32
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1880.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1189.891"
                   y="-935.4424">Security framework
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1880.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1189.891"
                   y="-918.6424">of XStream not initialized,
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1880.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1189.891"
                   y="-901.8424">XStream is probably vulnerable.
             </text>
         </g>
         <!-- 32\nSecurity framework \nof XStream not initialized, \nXStream is probably vulnerable.\n&#45;&gt;33\nFix existing issues \nfrom the prototype\n -->
-        <g class="edge" id="edge43">
+        <g class="edge" id="edge45">
             <title>32\nSecurity framework \nof XStream not initialized, \nXStream is probably vulnerable.\n-&gt;33\nFix
                 existing issues \nfrom the prototype\n
             </title>
-            <path d="M1920.5408,-983.6114C1936.4565,-1004.4813 1954.4173,-1028.0328 1968.9931,-1047.1457" fill="none"
+            <path d="M1189.1177,-990.5582C1188.8815,-1008.6806 1188.6274,-1028.1701 1188.4121,-1044.6857" fill="none"
                   stroke="#000000" stroke-dasharray="5,2"/>
             <polygon fill="#000000"
-                     points="1966.3769,-1049.4869 1975.224,-1055.3161 1971.943,-1045.2421 1966.3769,-1049.4869"
+                     points="1184.9076,-1045.0203 1188.2768,-1055.0652 1191.907,-1045.1117 1184.9076,-1045.0203"
                      stroke="#000000"/>
         </g>
         <!-- 34\nAdd priorities to nodes\n -->
-        <g class="node" id="node38" onclick="top.taskgraphtool_nodeselected(&quot;34&quot;);">
+        <g class="node" id="node40" onclick="top.taskgraphtool_nodeselected(&quot;34&quot;);">
             <title>34\nAdd priorities to nodes\n</title>
             <polygon fill="#eee8aa"
-                     points="2987.8028,-951.8443 2843.4038,-951.8443 2843.4038,-910.6405 2987.8028,-910.6405 2987.8028,-951.8443"
+                     points="1508.0905,-951.8443 1363.6915,-951.8443 1363.6915,-910.6405 1508.0905,-910.6405 1508.0905,-951.8443"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2915.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1435.891"
                   y="-935.4424">34
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2915.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1435.891"
                   y="-918.6424">Add priorities to nodes
             </text>
         </g>
         <!-- 34\nAdd priorities to nodes\n&#45;&gt;26\nAdd better support for \nmultiuser usage\n -->
-        <g class="edge" id="edge44">
+        <g class="edge" id="edge46">
             <title>34\nAdd priorities to nodes\n-&gt;26\nAdd better support for \nmultiuser usage\n</title>
-            <path d="M2908.7252,-951.9332C2900.7617,-975.8889 2887.4707,-1015.8713 2877.5534,-1045.7048" fill="none"
+            <path d="M1447.2196,-951.9332C1460.4499,-976.0972 1482.6084,-1016.5678 1498.9863,-1046.4807" fill="none"
                   stroke="#000000"/>
             <polygon fill="#000000"
-                     points="2874.1653,-1044.8018 2874.332,-1055.3954 2880.8079,-1047.01 2874.1653,-1044.8018"
+                     points="1495.9947,-1048.3049 1503.8672,-1055.3954 1502.1346,-1044.9431 1495.9947,-1048.3049"
                      stroke="#000000"/>
         </g>
         <!-- 36\nDo some Vaadin\nthemeing\n -->
-        <g class="node" id="node39" onclick="top.taskgraphtool_nodeselected(&quot;36&quot;);">
+        <g class="node" id="node41" onclick="top.taskgraphtool_nodeselected(&quot;36&quot;);">
             <title>36\nDo some Vaadin\nthemeing\n</title>
-            <g id="a_node39">
+            <g id="a_node41">
                 <a xlink:title="At the moment plain &quot;valo&quot; from Vaadin 8&#10;https://vaadin.com/docs/v8/framework/themes/themes-creating.html">
                     <polygon fill="#eee8aa"
-                             points="1089.6861,-960.6437 979.5204,-960.6437 979.5204,-901.841 1089.6861,-901.841 1089.6861,-960.6437"
+                             points="697.9738,-960.6437 587.8082,-960.6437 587.8082,-901.841 697.9738,-901.841 697.9738,-960.6437"
                              stroke="#000000"/>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1034.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="642.891"
                           y="-943.8424">36
                     </text>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1034.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="642.891"
                           y="-927.0424">Do some Vaadin
                     </text>
-                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1034.6033"
+                    <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="642.891"
                           y="-910.2424">themeing
                     </text>
                 </a>
             </g>
         </g>
         <!-- 36\nDo some Vaadin\nthemeing\n&#45;&gt;35\nMake it nicer\n(optical)\n -->
-        <g class="edge" id="edge45">
+        <g class="edge" id="edge47">
             <title>36\nDo some Vaadin\nthemeing\n-&gt;35\nMake it nicer\n(optical)\n</title>
-            <path d="M1060.1468,-960.643C1070.9904,-971.448 1084.4036,-982.8419 1098.6033,-990.2615 1220.8994,-1054.1639 1384.8352,-1074.9217 1469.2386,-1081.5801"
+            <path d="M611.4949,-960.77C591.5559,-979.5247 565.2055,-1004.3142 541.891,-1026.2615 534.381,-1033.3311 526.3608,-1040.8836 518.666,-1048.1312"
                   fill="none" stroke="#000000"/>
-            <polygon fill="#000000"
-                     points="1469.1417,-1085.0826 1479.3758,-1082.3418 1469.6662,-1078.1023 1469.1417,-1085.0826"
+            <polygon fill="#000000" points="515.99,-1045.8435 511.1105,-1055.2478 520.7896,-1050.939 515.99,-1045.8435"
                      stroke="#000000"/>
         </g>
         <!-- 37\nAdd a nice grid background \nto the drawing\n -->
-        <g class="node" id="node40" onclick="top.taskgraphtool_nodeselected(&quot;37&quot;);">
+        <g class="node" id="node42" onclick="top.taskgraphtool_nodeselected(&quot;37&quot;);">
             <title>37\nAdd a nice grid background \nto the drawing\n</title>
             <polygon fill="#eee8aa"
-                     points="1515.3854,-960.6437 1339.8211,-960.6437 1339.8211,-901.841 1515.3854,-901.841 1515.3854,-960.6437"
+                     points="175.6731,-960.6437 .1089,-960.6437 .1089,-901.841 175.6731,-901.841 175.6731,-960.6437"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1427.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="87.891"
                   y="-943.8424">37
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1427.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="87.891"
                   y="-927.0424">Add a nice grid background
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1427.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="87.891"
                   y="-910.2424">to the drawing
             </text>
         </g>
         <!-- 37\nAdd a nice grid background \nto the drawing\n&#45;&gt;35\nMake it nicer\n(optical)\n -->
-        <g class="edge" id="edge46">
+        <g class="edge" id="edge48">
             <title>37\nAdd a nice grid background \nto the drawing\n-&gt;35\nMake it nicer\n(optical)\n</title>
-            <path d="M1446.0765,-960.4605C1461.5342,-984.9089 1483.7006,-1019.9683 1500.5434,-1046.6075" fill="none"
-                  stroke="#000000"/>
+            <path d="M128.0645,-960.6501C144.8596,-971.5909 165.059,-983.0797 184.891,-990.2615 286.7192,-1027.137 330.152,-975.637 425.891,-1026.2615 435.8915,-1031.5496 445.0214,-1039.4336 452.8138,-1047.7107"
+                  fill="none" stroke="#000000"/>
             <polygon fill="#000000"
-                     points="1497.7314,-1048.7094 1506.0338,-1055.2913 1503.6481,-1044.9686 1497.7314,-1048.7094"
+                     points="450.3331,-1050.1889 459.5807,-1055.3594 455.5759,-1045.5506 450.3331,-1050.1889"
                      stroke="#000000"/>
         </g>
         <!-- 40\nConnect nodes by using \nonmousedown\nonmouseup\nSVG Javascript features\n -->
-        <g class="node" id="node41" onclick="top.taskgraphtool_nodeselected(&quot;40&quot;);">
+        <g class="node" id="node43" onclick="top.taskgraphtool_nodeselected(&quot;40&quot;);">
             <title>40\nConnect nodes by using \nonmousedown\nonmouseup\nSVG Javascript features\n</title>
             <polygon fill="#eee8aa"
-                     points="2723.2545,-1130.6615 2569.9521,-1130.6615 2569.9521,-1038.6615 2723.2545,-1038.6615 2723.2545,-1130.6615"
+                     points="416.5422,-1130.6615 263.2398,-1130.6615 263.2398,-1038.6615 416.5422,-1038.6615 416.5422,-1130.6615"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2646.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="339.891"
                   y="-1114.0615">40
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2646.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="339.891"
                   y="-1097.2615">Connect nodes by using
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2646.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="339.891"
                   y="-1080.4615">onmousedown
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2646.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="339.891"
                   y="-1063.6615">onmouseup
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2646.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="339.891"
                   y="-1046.8615">SVG Javascript features
             </text>
         </g>
         <!-- 40\nConnect nodes by using \nonmousedown\nonmouseup\nSVG Javascript features\n&#45;&gt;39\nMake it really pleasant \nto use\n -->
-        <g class="edge" id="edge47">
+        <g class="edge" id="edge49">
             <title>40\nConnect nodes by using \nonmousedown\nonmouseup\nSVG Javascript features\n-&gt;39\nMake it really
                 pleasant \nto use\n
             </title>
-            <path d="M2592.7792,-1130.8908C2574.1982,-1146.8499 2553.4394,-1164.6796 2535.0532,-1180.4714" fill="none"
+            <path d="M386.1202,-1130.8908C401.4521,-1146.2227 418.5105,-1163.281 433.8297,-1178.6002" fill="none"
                   stroke="#000000"/>
             <polygon fill="#000000"
-                     points="2532.6375,-1177.9324 2527.332,-1187.1031 2537.1985,-1183.2426 2532.6375,-1177.9324"
+                     points="431.6492,-1181.3695 441.1952,-1185.9657 436.599,-1176.4197 431.6492,-1181.3695"
                      stroke="#000000"/>
         </g>
         <!-- 41\nTest with different browsers\n -->
-        <g class="node" id="node42" onclick="top.taskgraphtool_nodeselected(&quot;41&quot;);">
+        <g class="node" id="node44" onclick="top.taskgraphtool_nodeselected(&quot;41&quot;);">
             <title>41\nTest with different browsers\n</title>
             <polygon fill="#eee8aa"
-                     points="1707.8174,-951.8443 1533.3891,-951.8443 1533.3891,-910.6405 1707.8174,-910.6405 1707.8174,-951.8443"
+                     points="368.1051,-951.8443 193.6769,-951.8443 193.6769,-910.6405 368.1051,-910.6405 368.1051,-951.8443"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1620.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="280.891"
                   y="-935.4424">41
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1620.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="280.891"
                   y="-918.6424">Test with different browsers
             </text>
         </g>
         <!-- 41\nTest with different browsers\n&#45;&gt;35\nMake it nicer\n(optical)\n -->
-        <g class="edge" id="edge48">
+        <g class="edge" id="edge50">
             <title>41\nTest with different browsers\n-&gt;35\nMake it nicer\n(optical)\n</title>
-            <path d="M1607.6563,-951.9332C1592.4708,-976.2014 1566.9935,-1016.917 1548.2527,-1046.867" fill="none"
-                  stroke="#000000"/>
+            <path d="M314.6542,-952.0284C351.1812,-974.7503 406.7645,-1010.0758 425.891,-1026.2615 433.6387,-1032.818 441.3889,-1040.4236 448.5014,-1047.9355"
+                  fill="none" stroke="#000000"/>
             <polygon fill="#000000"
-                     points="1545.2537,-1045.0616 1542.9162,-1055.3954 1551.1877,-1048.7748 1545.2537,-1045.0616"
+                     points="446.0194,-1050.4066 455.3777,-1055.3738 451.1595,-1045.6549 446.0194,-1050.4066"
                      stroke="#000000"/>
         </g>
         <!-- 44\nCreate a business plan\n -->
-        <g class="node" id="node43" onclick="top.taskgraphtool_nodeselected(&quot;44&quot;);">
+        <g class="node" id="node45" onclick="top.taskgraphtool_nodeselected(&quot;44&quot;);">
             <title>44\nCreate a business plan\n</title>
             <polygon fill="#eee8aa"
-                     points="3476.8938,-951.8443 3336.3127,-951.8443 3336.3127,-910.6405 3476.8938,-910.6405 3476.8938,-951.8443"
+                     points="2032.1816,-951.8443 1891.6004,-951.8443 1891.6004,-910.6405 2032.1816,-910.6405 2032.1816,-951.8443"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3406.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1961.891"
                   y="-935.4424">44
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3406.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1961.891"
                   y="-918.6424">Create a business plan
             </text>
         </g>
         <!-- 44\nCreate a business plan\n&#45;&gt;42\nDecide to offer a cloud \nbased solution (SAAS)\n -->
-        <g class="edge" id="edge49">
+        <g class="edge" id="edge51">
             <title>44\nCreate a business plan\n-&gt;42\nDecide to offer a cloud \nbased solution (SAAS)\n</title>
-            <path d="M3385.2947,-951.9332C3363.2415,-973.347 3327.9999,-1007.5668 3298.8243,-1035.8965" fill="none"
+            <path d="M1961.891,-951.9332C1961.891,-968.5338 1961.891,-992.8306 1961.891,-1016.1131" fill="none"
                   stroke="#000000"/>
             <polygon fill="#000000"
-                     points="3296.2853,-1033.4834 3291.5492,-1042.9607 3301.1618,-1038.5054 3296.2853,-1033.4834"
+                     points="1958.3911,-1016.3543 1961.891,-1026.3544 1965.3911,-1016.3544 1958.3911,-1016.3543"
                      stroke="#000000"/>
         </g>
         <!-- 45\nRoughly estimate the \ncloud costs\n -->
-        <g class="node" id="node44" onclick="top.taskgraphtool_nodeselected(&quot;45&quot;);">
+        <g class="node" id="node46" onclick="top.taskgraphtool_nodeselected(&quot;45&quot;);">
             <title>45\nRoughly estimate the \ncloud costs\n</title>
             <polygon fill="#eee8aa"
-                     points="3318.0873,-960.6437 3179.1192,-960.6437 3179.1192,-901.841 3318.0873,-901.841 3318.0873,-960.6437"
+                     points="2189.375,-960.6437 2050.407,-960.6437 2050.407,-901.841 2189.375,-901.841 2189.375,-960.6437"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3248.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2119.891"
                   y="-943.8424">45
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3248.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2119.891"
                   y="-927.0424">Roughly estimate the
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="3248.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="2119.891"
                   y="-910.2424">cloud costs
             </text>
         </g>
         <!-- 45\nRoughly estimate the \ncloud costs\n&#45;&gt;42\nDecide to offer a cloud \nbased solution (SAAS)\n -->
-        <g class="edge" id="edge50">
+        <g class="edge" id="edge52">
             <title>45\nRoughly estimate the \ncloud costs\n-&gt;42\nDecide to offer a cloud \nbased solution (SAAS)\n
             </title>
-            <path d="M3248.6033,-960.4605C3248.6033,-976.3039 3248.6033,-996.6034 3248.6033,-1016.1797" fill="none"
+            <path d="M2089.8005,-960.4605C2067.8793,-981.7461 2037.6748,-1011.0749 2012.1215,-1035.8874" fill="none"
                   stroke="#000000"/>
             <polygon fill="#000000"
-                     points="3245.1034,-1016.3235 3248.6033,-1026.3236 3252.1034,-1016.3236 3245.1034,-1016.3235"
+                     points="2009.4387,-1033.6138 2004.7026,-1043.0912 2014.3151,-1038.6358 2009.4387,-1033.6138"
                      stroke="#000000"/>
         </g>
         <!-- 46\nSeparate the UI stuff \nfrom the business logic\n(e.g. using an unidirectional dataflow)\n -->
-        <g class="node" id="node45" onclick="top.taskgraphtool_nodeselected(&quot;46&quot;);">
+        <g class="node" id="node47" onclick="top.taskgraphtool_nodeselected(&quot;46&quot;);">
             <title>46\nSeparate the UI stuff \nfrom the business logic\n(e.g. using an unidirectional dataflow)\n
             </title>
             <polygon fill="#eee8aa"
-                     points="1046.4239,-815.5235 816.7826,-815.5235 816.7826,-740.1229 1046.4239,-740.1229 1046.4239,-815.5235"
+                     points="639.7117,-815.5235 410.0703,-815.5235 410.0703,-740.1229 639.7117,-740.1229 639.7117,-815.5235"
                      stroke="#000000"/>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="931.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="524.891"
                   y="-798.8232">46
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="931.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="524.891"
                   y="-782.0232">Separate the UI stuff
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="931.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="524.891"
                   y="-765.2232">from the business logic
             </text>
-            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="931.6033"
+            <text fill="#000000" font-family="Times,serif" font-size="14.00" text-anchor="middle" x="524.891"
                   y="-748.4232">(e.g. using an unidirectional dataflow)
             </text>
         </g>
         <!-- 46\nSeparate the UI stuff \nfrom the business logic\n(e.g. using an unidirectional dataflow)\n&#45;&gt;22\nTry to build the UI with the\nlatest Vaadin LTS version: 14\n(webcomponents, ...)\n -->
-        <g class="edge" id="edge51">
+        <g class="edge" id="edge53">
             <title>46\nSeparate the UI stuff \nfrom the business logic\n(e.g. using an unidirectional dataflow)\n-&gt;22\nTry
                 to build the UI with the\nlatest Vaadin LTS version: 14\n(webcomponents, ...)\n
             </title>
-            <path d="M916.2774,-815.747C907.9372,-836.385 897.5429,-862.1058 888.6817,-884.0328" fill="none"
+            <path d="M513.273,-815.747C506.9789,-836.2924 499.1417,-861.8752 492.4441,-883.7376" fill="none"
                   stroke="#000000"/>
-            <polygon fill="#000000" points="885.362,-882.9063 884.8601,-893.4892 891.8521,-885.5291 885.362,-882.9063"
+            <polygon fill="#000000" points="489.0394,-882.9026 489.4567,-893.4892 495.7324,-884.953 489.0394,-882.9026"
                      stroke="#000000"/>
         </g>
     </g>
