@@ -8,7 +8,7 @@ sealed class Node {
     abstract var externalUrls: MutableSet<String>?
 }
 
-data class Aufgabe(
+data class Task(
         override var text: String,
         override var state: NodeState = NodeState.OPEN,
         override var description: String? = null,
@@ -16,7 +16,7 @@ data class Aufgabe(
         override var externalUrls: MutableSet<String>? = null
 ) : Node()
 
-data class Ziel(
+data class Goal(
         override var text: String,
         override var state: NodeState = NodeState.OPEN,
         override var description: String? = null,
@@ -32,7 +32,7 @@ data class Problem(
         override var externalUrls: MutableSet<String>? = null
 ) : Node()
 
-data class Entscheid(
+data class Decision(
         override var text: String,
         override var state: NodeState = NodeState.OPEN,
         override var description: String? = null,

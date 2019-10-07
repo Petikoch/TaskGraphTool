@@ -1,18 +1,18 @@
 package ch.petikoch.tools.taskgraphtool.model.examples
 
-import ch.petikoch.tools.taskgraphtool.model.Aufgabe
+import ch.petikoch.tools.taskgraphtool.model.Goal
 import ch.petikoch.tools.taskgraphtool.model.NodeState
 import ch.petikoch.tools.taskgraphtool.model.Problem
-import ch.petikoch.tools.taskgraphtool.model.Ziel
+import ch.petikoch.tools.taskgraphtool.model.Task
 import ch.petikoch.tools.taskgraphtool.model.impl.TaskGraphToolMutableModel
 
 internal val KuchenBackenModell = TaskGraphToolMutableModel().apply {
-    val (hunger, ziel) = addAndConnect(Problem("Hunger!"), Ziel("Kuchen essen"))
+    val (hunger, ziel) = addAndConnect(Problem("Hunger!"), Goal("Kuchen essen"))
 
     val (einkaufen, backen, warten) = addAndConnect(
-            Aufgabe("Zutaten einkaufen", NodeState.DONE),
-            Aufgabe(text = "Backen", state = NodeState.OPEN),
-            Aufgabe("Warten")
+            Task("Zutaten einkaufen", NodeState.DONE),
+            Task(text = "Backen", state = NodeState.OPEN),
+            Task("Warten")
     )
 
     connect(backen, warten)

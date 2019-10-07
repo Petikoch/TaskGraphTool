@@ -1,9 +1,9 @@
 package ch.petikoch.tools.taskgraphtool.ui
 
-import ch.petikoch.tools.taskgraphtool.model.Aufgabe
 import ch.petikoch.tools.taskgraphtool.model.IModel
 import ch.petikoch.tools.taskgraphtool.model.Node
 import ch.petikoch.tools.taskgraphtool.model.NodeState
+import ch.petikoch.tools.taskgraphtool.model.Task
 import ch.petikoch.tools.taskgraphtool.model.impl.TaskGraphToolMutableModel
 import com.vaadin.ui.Notification
 import com.vaadin.ui.Window
@@ -16,7 +16,7 @@ class NodeCreationForm(private val window: Window,
 
     init {
         typeComboBox.setItems(Node::class.sealedSubclasses.mapNotNull { it.simpleName }.sorted())
-        typeComboBox.setSelectedItem(Aufgabe::class.simpleName)
+        typeComboBox.setSelectedItem(Task::class.simpleName)
 
         stateComboBox.setItems(NodeState.values().map { it.name })
         stateComboBox.setSelectedItem(NodeState.OPEN.name)

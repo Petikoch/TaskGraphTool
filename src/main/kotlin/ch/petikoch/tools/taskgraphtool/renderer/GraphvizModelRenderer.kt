@@ -41,14 +41,14 @@ internal object GraphvizModelRenderer : IModelRenderer {
 
             model.nodes().forEach { (no, node) ->
                 val mutNode = when (node) {
-                    is Aufgabe -> {
+                    is Task -> {
                         val newTask = mutNode(node.text).add(Shape.RECTANGLE)
                         if (node.state != NodeState.DONE) {
                             newTask.add(Style.FILLED).add(Color.PALEGOLDENROD.fill())
                         }
                         newTask
                     }
-                    is Ziel -> {
+                    is Goal -> {
                         val newZiel = mutNode(node.text)
                         if (node.state != NodeState.DONE) {
                             newZiel.add(Style.FILLED).add(Color.FORESTGREEN.fill())
@@ -62,7 +62,7 @@ internal object GraphvizModelRenderer : IModelRenderer {
                         }
                         newProblem
                     }
-                    is Entscheid -> {
+                    is Decision -> {
                         val newEntscheid = mutNode(node.text).add(Shape.DIAMOND)
                         if (node.state != NodeState.DONE) {
                             newEntscheid.add(Style.FILLED).add(Color.GOLD.fill())
