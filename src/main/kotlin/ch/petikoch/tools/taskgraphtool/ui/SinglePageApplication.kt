@@ -70,12 +70,19 @@ class SinglePageApplication : DesignSinglePageApplication(), InitializingBean {
             showModelWindow("Delete connection between nodes") { window -> NodeConnectForm(window, model, false) { refresh(zoomer.currentZoomFactor()) } }
         }
 
-        val streamResource = StreamResource(
+        val modelStreamResource = StreamResource(
                 { ByteArrayInputStream(modelSerializer.serialize(model).toByteArray()) },
                 "TaskGraphTool-model.${modelSerializer.getFileExtension()}"
         )
-        val fileDownloader = FileDownloader(streamResource)
-        fileDownloader.extend(saveButton)
+        val modelFileDownloader = FileDownloader(modelStreamResource)
+        modelFileDownloader.extend(saveModelButton)
+
+        val svgStreamResource = StreamResource(
+                { ByteArrayInputStream(renderModel2Svg(zoomer.currentZoomFactor())) },
+                "TaskGraphTool-model.svg"
+        )
+        val svgFileDownloader = FileDownloader(svgStreamResource)
+        svgFileDownloader.extend(saveSvgButton)
 
         val receiver = object : Upload.Receiver, Upload.SucceededListener {
             private val baos = ByteArrayOutputStream()
@@ -153,9 +160,7 @@ class SinglePageApplication : DesignSinglePageApplication(), InitializingBean {
             imageWrapper.removeComponent(svgWrapperPanel)
         }
 
-        val imageBytes = modelRenderer.render(model, Format.SVG)
-
-        val modifiedSvg = enhanceSvg(imageBytes, zoomFactor)
+        val modifiedSvg = renderModel2Svg(zoomFactor)
 
         autoSaveAsync(model, modifiedSvg)
 
@@ -186,6 +191,11 @@ class SinglePageApplication : DesignSinglePageApplication(), InitializingBean {
             }
         }
         imageWrapper.addComponent(newPanel)
+    }
+
+    private fun renderModel2Svg(zoomFactor: Float): ByteArray {
+        val imageBytes = modelRenderer.render(model, Format.SVG)
+        return enhanceSvg(imageBytes, zoomFactor)
     }
 
     private fun autoSaveAsync(model: IModel,
