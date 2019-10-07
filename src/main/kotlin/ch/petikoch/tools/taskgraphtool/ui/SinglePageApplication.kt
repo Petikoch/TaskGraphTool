@@ -5,6 +5,7 @@ import ch.petikoch.tools.taskgraphtool.model.Node
 import ch.petikoch.tools.taskgraphtool.model.NodeState
 import ch.petikoch.tools.taskgraphtool.renderer.IModelRenderer
 import ch.petikoch.tools.taskgraphtool.serialization.IModelSerializer
+import com.google.common.base.Stopwatch
 import com.vaadin.server.FileDownloader
 import com.vaadin.server.StreamResource
 import com.vaadin.spring.annotation.UIScope
@@ -14,10 +15,17 @@ import org.joox.JOOX
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.InitializingBean
 import org.springframework.beans.factory.annotation.Autowired
+import reactor.core.publisher.Mono
+import reactor.core.scheduler.Schedulers
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
+import java.io.File
 import java.io.OutputStream
 import java.nio.charset.StandardCharsets
+import java.time.Instant
+import java.time.LocalDateTime
+import java.time.ZoneId
+import java.time.temporal.ChronoUnit
 import java.util.*
 import java.util.concurrent.atomic.AtomicReference
 
@@ -37,6 +45,8 @@ class SinglePageApplication : DesignSinglePageApplication(), InitializingBean {
     private lateinit var modelSerializer: IModelSerializer
     @Autowired
     private lateinit var zoomer: Zoomer
+
+    private val autoSaveScheduler = Schedulers.newElastic("Auto-Save", 1, false)
 
     private var svgWrapperPanel: Panel? = null
 
@@ -147,12 +157,14 @@ class SinglePageApplication : DesignSinglePageApplication(), InitializingBean {
 
         val modifiedSvg = enhanceSvg(imageBytes, zoomFactor)
 
+        autoSaveAsync(model, modifiedSvg)
+
         //https://github.com/mstahv/svgexamples/blob/master/src/main/java/org/vaadin/beta82test/FileExample.java
         //https://raw.githubusercontent.com/mstahv/svgexamples/master/src/main/resources/pull.svg
         //http://srufaculty.sru.edu/david.dailey/svg/intro/PartF_B.html
         //https://vaadin.com/blog/the-state-of-svg-scalable-vector-graphics-in-the-modern-web
         val image = Embedded()
-        image.source = StreamResource({ ByteArrayInputStream(modifiedSvg.toByteArray()) }, "${UUID.randomUUID()}.svg")
+        image.source = StreamResource({ ByteArrayInputStream(modifiedSvg) }, "${UUID.randomUUID()}.svg")
 
         val newPanel = Panel(image)
         newPanel.setSizeFull()
@@ -176,7 +188,42 @@ class SinglePageApplication : DesignSinglePageApplication(), InitializingBean {
         imageWrapper.addComponent(newPanel)
     }
 
-    private fun enhanceSvg(imageBytes: ByteArray, zoomFactor: Float): ByteArrayOutputStream {
+    private fun autoSaveAsync(model: IModel,
+                              modifiedSvg: ByteArray) {
+        Mono.fromCallable {
+            val stopwatch = Stopwatch.createStarted()
+
+            val autoSaveFolder = File("./autosave")
+            autoSaveFolder.mkdirs()
+
+            val curentLocalDateTime = LocalDateTime.now()
+            autoSaveFolder.listFiles()?.forEach {
+                val lastModifiedTimeMillis = it.lastModified()
+                val lastModifiedLocalDateTime = LocalDateTime.ofInstant(Instant.ofEpochMilli(lastModifiedTimeMillis), ZoneId.systemDefault())
+                val daysBetween = ChronoUnit.DAYS.between(lastModifiedLocalDateTime, curentLocalDateTime)
+                if (daysBetween > 14) {
+                    val deleted = it.delete()
+                    check(deleted) { "Could not auto delete ${it.absolutePath}" }
+                    logger.info("Auto deleted old ${it.absolutePath}")
+                }
+            }
+
+            val serializedModel = modelSerializer.serialize(model)
+            val fileNamePrefix = "model_${LocalDateTime.now()}".replace(":", "_").replace(".", "_")
+            val modelFileName = "$fileNamePrefix.${modelSerializer.getFileExtension()}"
+            File(autoSaveFolder, modelFileName).writeBytes(serializedModel.toByteArray(Charsets.UTF_8))
+            val svgFileName = "$fileNamePrefix.svg"
+            File(autoSaveFolder, svgFileName).writeBytes(modifiedSvg)
+
+            stopwatch.toString()
+        }.subscribeOn(autoSaveScheduler)
+                .subscribe(
+                        { logger.info("Auto save successful in $it") },
+                        { throwable -> logger.error("Unexpected error in autosave: $throwable", throwable) }
+                )
+    }
+
+    private fun enhanceSvg(imageBytes: ByteArray, zoomFactor: Float): ByteArray {
         val document = JOOX.`$`(ByteArrayInputStream(imageBytes)).document()
 
         // add onclick on g elements of all nodes
@@ -194,9 +241,11 @@ class SinglePageApplication : DesignSinglePageApplication(), InitializingBean {
         val zoomedHeight = (originalHeight.toInt() * zoomFactor).toInt()
         svgRootNode.attr("width", "${zoomedWidth}px")
         svgRootNode.attr("height", "${zoomedHeight}px")
+
         val modifiedSvg = ByteArrayOutputStream()
         JOOX.`$`(document).write(modifiedSvg)
-        return modifiedSvg
+
+        return modifiedSvg.toByteArray()
     }
 
     fun selectNode(nodeNumber: Int) {
