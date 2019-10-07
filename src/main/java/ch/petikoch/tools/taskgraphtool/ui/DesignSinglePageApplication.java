@@ -22,12 +22,11 @@ public class DesignSinglePageApplication extends HorizontalLayout {
     protected Button deleteNodeButton;
     protected Button deleteConnectionButton;
     protected Button saveModelButton;
+    protected Button saveSvgButton;
     protected Upload upload;
     protected Button resetButton;
-    protected Button saveSvgButton;
     protected Button zoomIn;
     protected Button zoomOut;
-    protected HorizontalSplitPanel splitPanel;
     protected HorizontalLayout imageWrapper;
     protected Label detailsLabel;
     protected VerticalLayout detailsPanel;

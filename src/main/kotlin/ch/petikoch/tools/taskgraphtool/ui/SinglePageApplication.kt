@@ -244,6 +244,8 @@ class SinglePageApplication : DesignSinglePageApplication(), InitializingBean {
         }
 
         // handle zoom
+        // using SVG zooming
+        // https://webdesign.tutsplus.com/tutorials/svg-viewport-and-viewbox-for-beginners--cms-30844
         val svgRootNode = JOOX.`$`(document).xpath("/*[name()='svg']")
         val originalWidth = svgRootNode.attr("width").let { it.substring(0, it.length - 2) }
         val originalHeight = svgRootNode.attr("height").let { it.substring(0, it.length - 2) }
