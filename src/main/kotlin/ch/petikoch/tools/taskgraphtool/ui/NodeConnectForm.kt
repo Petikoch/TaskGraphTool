@@ -19,12 +19,7 @@ class NodeConnectForm(private val window: Window,
 
         val elements = model.nodes().map { it.first.toString() }
         fromComboBox.setItems(elements)
-        fromComboBox.setSelectedItem(elements.first())
-        fromTextField.value = model.nodes().first().second.text
-
         toComboBox.setItems(elements)
-        toComboBox.setSelectedItem(elements.last())
-        toTextField.value = model.nodes().last().second.text
 
         val comboBoxSelectionListener: (HasValue.ValueChangeEvent<String>) -> Unit = {
             connectButton.isEnabled = fromComboBox.selectedItem != toComboBox.selectedItem
@@ -33,11 +28,16 @@ class NodeConnectForm(private val window: Window,
         toComboBox.addValueChangeListener(comboBoxSelectionListener)
 
         fromComboBox.addValueChangeListener {
-            fromTextField.value = model.nodes().single { it.first == fromComboBox.value.toInt() }.second.text
+            val node = model.nodes().single { it.first == fromComboBox.value.toInt() }.second
+            fromTextField.value = "${node::class.simpleName} - ${node.text}"
         }
         toComboBox.addValueChangeListener {
-            toTextField.value = model.nodes().single { it.first == toComboBox.value.toInt() }.second.text
+            val node = model.nodes().single { it.first == toComboBox.value.toInt() }.second
+            toTextField.value = "${node::class.simpleName} - ${node.text}"
         }
+
+        fromComboBox.setSelectedItem(elements.first())
+        toComboBox.setSelectedItem(elements.last())
 
         fromComboBox.focus()
 

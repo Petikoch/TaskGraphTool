@@ -11,11 +11,11 @@ class NodeDeletionForm(private val window: Window,
         val elements = model.nodes().map { it.first.toString() }
         val selectedElement = elements.last()
         comboBox.setItems(elements)
-        comboBox.setSelectedItem(selectedElement)
-        textField.value = model.nodes().last().second.toString()
         comboBox.addSelectionListener {
-            textField.value = model.nodes().single { it.first == comboBox.value.toInt() }.toString()
+            val node = model.nodes().single { it.first == comboBox.value.toInt() }.second
+            textField.value = "${node::class.simpleName} - ${node.text}"
         }
+        comboBox.setSelectedItem(selectedElement)
 
         comboBox.focus()
 
