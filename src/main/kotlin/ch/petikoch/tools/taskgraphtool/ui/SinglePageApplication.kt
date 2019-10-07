@@ -1,6 +1,7 @@
 package ch.petikoch.tools.taskgraphtool.ui
 
 import ch.petikoch.tools.taskgraphtool.model.IModel
+import ch.petikoch.tools.taskgraphtool.model.Node
 import ch.petikoch.tools.taskgraphtool.model.NodeState
 import ch.petikoch.tools.taskgraphtool.renderer.IModelRenderer
 import ch.petikoch.tools.taskgraphtool.serialization.IModelSerializer
@@ -22,7 +23,7 @@ import java.util.concurrent.atomic.AtomicReference
 
 @org.springframework.stereotype.Component
 @UIScope
-class SinglePageApplicationMain : DesignSinglePageApplicationMain(), InitializingBean {
+class SinglePageApplication : DesignSinglePageApplication(), InitializingBean {
 
     companion object {
         private val logger = LoggerFactory.getLogger(this::class.java)
@@ -42,7 +43,7 @@ class SinglePageApplicationMain : DesignSinglePageApplicationMain(), Initializin
     override fun afterPropertiesSet() {
         refresh(1.0f)
         initToolButtons()
-        initForm()
+        initNodeEditForm()
     }
 
     private fun initToolButtons() {
@@ -90,12 +91,9 @@ class SinglePageApplicationMain : DesignSinglePageApplicationMain(), Initializin
         upload.addSucceededListener(receiver)
 
         resetButton.addClickListener {
+            initNodeEditForm()
             model.reset()
-            nodeTitle.value = ""
-            nodeDetails.value = ""
-            applyButton.isEnabled = false
-            detailsLabel.value = "Details"
-            refresh(zoomer.currentZoomFactor())
+            refresh(zoomer.reset())
         }
 
         zoomIn.addClickListener {
@@ -106,16 +104,38 @@ class SinglePageApplicationMain : DesignSinglePageApplicationMain(), Initializin
         }
     }
 
-    private fun initForm() {
-        applyButton.addClickListener {
+    private fun initNodeEditForm(selectedNodeIndex: Int? = null,
+                                 selectedNode: Node? = null) {
+        val nodeEditForm = NodeEditForm()
+        nodeEditForm.submitButton.addClickListener {
             val no = detailsLabel.value.toInt()
             val node = model.nodes().single { it.first == no }.second
-            node.text = nodeTitle.value.trim()
-            node.description = nodeDetails.value.trim()
-            node.state = NodeState.valueOf(nodeStateComboBox.selectedItem.get())
+            node.text = nodeEditForm.textTextArea.value.trim()
+            node.state = NodeState.valueOf(nodeEditForm.stateComboBox.selectedItem.get())
+            node.issueUrl = nodeEditForm.issueTrackerUrlTextField.value.trim()
+            if (nodeEditForm.externalReferenceUrlTextField.value.isNotBlank()) {
+                node.externalUrls = mutableSetOf(nodeEditForm.externalReferenceUrlTextField.value.trim())
+            }
+            node.description = nodeEditForm.descriptionTextArea.value.trim()
             refresh(zoomer.currentZoomFactor())
         }
-        nodeStateComboBox.setItems(NodeState.values().map { it.name })
+        nodeEditForm.submitButton.isEnabled = selectedNodeIndex != null
+        if (selectedNode != null) {
+            nodeEditForm.typeComboBox.setSelectedItem(selectedNode::class.simpleName)
+            nodeEditForm.textTextArea.value = selectedNode.text
+            nodeEditForm.stateComboBox.setSelectedItem(selectedNode.state.name)
+            nodeEditForm.issueTrackerUrlTextField.value = selectedNode.issueUrl ?: ""
+            val externalUrls = selectedNode.externalUrls?.toSet()
+            if (externalUrls != null && externalUrls.isNotEmpty()) {
+                nodeEditForm.externalReferenceUrlTextField.value = externalUrls.first()
+            }
+            nodeEditForm.descriptionTextArea.value = selectedNode.description ?: ""
+        }
+
+        detailsPanel.removeAllComponents()
+        detailsPanel.addComponent(nodeEditForm)
+
+        detailsLabel.value = selectedNodeIndex?.toString() ?: "Node details"
     }
 
     private fun refresh(zoomFactor: Float) {
@@ -177,12 +197,8 @@ class SinglePageApplicationMain : DesignSinglePageApplicationMain(), Initializin
         model.nodes().single {
             it.first == nodeNumber
         }.run {
-            nodeTitle.value = second.text
-            nodeDetails.value = second.description ?: ""
-            nodeStateComboBox.setSelectedItem(second.state.name)
+            initNodeEditForm(first, second)
         }
-        detailsLabel.value = nodeNumber.toString()
-        applyButton.isEnabled = true
     }
 
     private fun showModelWindow(windowTitle: String,

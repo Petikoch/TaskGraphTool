@@ -83,10 +83,8 @@ internal object GraphvizModelRenderer : IModelRenderer {
                     |""".trimMargin())
                 mutNode.add("tooltip", node.description ?: "")
                 if (node.issueUrl != null) {
-                    val url = node.issueUrl
-                    mutNode.add("URL", url)
                     if (node.description == null) {
-                        mutNode.add("tooltip", url)
+                        mutNode.add("tooltip", node.issueUrl)
                     }
                 }
                 nodes2MutNode[no] = mutNode

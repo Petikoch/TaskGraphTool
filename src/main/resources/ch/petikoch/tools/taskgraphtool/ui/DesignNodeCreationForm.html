@@ -8,28 +8,26 @@
 </head>
 <body>
 <vaadin-vertical-layout>
-    <vaadin-form-layout margin="false">
-        <vaadin-combo-box caption="Type" empty-selection-allowed="false" text-input-allowed="false" width-full
-                          data-item-type="java.lang.String" _id="typeComboBox">
-            <option item="Option1">Option 1</option>
-            <option item="Option2">Option 2</option>
-            <option item="Option3">Option 3</option>
-        </vaadin-combo-box>
-        <vaadin-text-area caption="Text" width-full _id="textTextArea"></vaadin-text-area>
-        <vaadin-combo-box caption="State" empty-selection-allowed="false" text-input-allowed="false" width-full
-                          data-item-type="java.lang.String" _id="stateComboBox">
-            <option item="Option1">Option 1</option>
-            <option item="Option2">Option 2</option>
-            <option item="Option3">Option 3</option>
-        </vaadin-combo-box>
-        <vaadin-text-field caption="Issue Tracker URL" width-full _id="issueTrackerUrlTextField"></vaadin-text-field>
-        <vaadin-text-field caption="External reference URL" width-full
-                           _id="externalReferenceUrlTextField"></vaadin-text-field>
-        <vaadin-text-area caption="Description" width-full _id="descriptionTextArea"></vaadin-text-area>
-        <vaadin-button disable-on-click plain-text _id="submitButton">
-            Submit
-        </vaadin-button>
-    </vaadin-form-layout>
+    <vaadin-combo-box caption="Type" empty-selection-allowed="false" text-input-allowed="false" width-full
+                      data-item-type="java.lang.String" _id="typeComboBox">
+        <option item="Option1">Option 1</option>
+        <option item="Option2">Option 2</option>
+        <option item="Option3">Option 3</option>
+    </vaadin-combo-box>
+    <vaadin-text-area caption="Text" width-full _id="textTextArea"></vaadin-text-area>
+    <vaadin-combo-box caption="State" empty-selection-allowed="false" text-input-allowed="false" width-full
+                      data-item-type="java.lang.String" _id="stateComboBox">
+        <option item="Option1">Option 1</option>
+        <option item="Option2">Option 2</option>
+        <option item="Option3">Option 3</option>
+    </vaadin-combo-box>
+    <vaadin-text-field caption="Issue Tracker URL" width-full _id="issueTrackerUrlTextField"></vaadin-text-field>
+    <vaadin-text-field caption="External reference URL" width-full
+                       _id="externalReferenceUrlTextField"></vaadin-text-field>
+    <vaadin-text-area caption="Description" rows="10" size-full _id="descriptionTextArea"></vaadin-text-area>
+    <vaadin-button disable-on-click plain-text _id="submitButton">
+        Submit
+    </vaadin-button>
 </vaadin-vertical-layout>
 </body>
 </html>

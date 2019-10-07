@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired
 class TaskGraphToolUI : UI() {
 
     @Autowired
-    private lateinit var singlePageApplicationMain: SinglePageApplicationMain
+    private lateinit var singlePageApplicationMain: SinglePageApplication
 
     override fun init(vaadinRequest: VaadinRequest) {
         content = singlePageApplicationMain
