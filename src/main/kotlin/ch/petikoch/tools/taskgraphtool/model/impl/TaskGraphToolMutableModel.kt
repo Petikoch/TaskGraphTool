@@ -1,9 +1,6 @@
 package ch.petikoch.tools.taskgraphtool.model.impl
 
-import ch.petikoch.tools.taskgraphtool.model.Connection
-import ch.petikoch.tools.taskgraphtool.model.ConnectionType
-import ch.petikoch.tools.taskgraphtool.model.IModel
-import ch.petikoch.tools.taskgraphtool.model.Node
+import ch.petikoch.tools.taskgraphtool.model.*
 import ch.petikoch.tools.taskgraphtool.renderer.GraphvizModelRenderer
 import org.apache.commons.lang3.NotImplementedException
 import org.slf4j.LoggerFactory
@@ -56,6 +53,26 @@ internal class TaskGraphToolMutableModel : IModel {
 
     override fun getLastModified(): ZonedDateTime {
         return lastModified
+    }
+
+    override fun updateNode(
+            nodeIndex: Int,
+            text: String,
+            state: NodeState,
+            issueTrackerUrl: String,
+            externalUrl: String,
+            description: String
+    ) {
+        val node = nodes().single { it.first == nodeIndex }.second
+        node.text = text
+        node.state = state
+        node.issueUrl = issueTrackerUrl
+        if (externalUrl.isNotBlank()) {
+            node.externalUrls = mutableSetOf(externalUrl)
+        }
+        node.description = description
+
+        lastModified = ZonedDateTime.now()
     }
 
     // programmatic API to create an instance

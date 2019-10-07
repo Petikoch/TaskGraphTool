@@ -118,15 +118,15 @@ class SinglePageApplication : DesignSinglePageApplication(), InitializingBean {
                                  selectedNode: Node? = null) {
         val nodeEditForm = NodeEditForm()
         nodeEditForm.submitButton.addClickListener {
-            val no = detailsLabel.value.toInt()
-            val node = model.nodes().single { it.first == no }.second
-            node.text = nodeEditForm.textTextArea.value.trim()
-            node.state = NodeState.valueOf(nodeEditForm.stateComboBox.selectedItem.get())
-            node.issueUrl = nodeEditForm.issueTrackerUrlTextField.value.trim()
-            if (nodeEditForm.externalReferenceUrlTextField.value.isNotBlank()) {
-                node.externalUrls = mutableSetOf(nodeEditForm.externalReferenceUrlTextField.value.trim())
-            }
-            node.description = nodeEditForm.descriptionTextArea.value.trim()
+            val nodeIndex = detailsLabel.value.toInt()
+            model.updateNode(
+                    nodeIndex,
+                    nodeEditForm.textTextArea.value.trim(),
+                    NodeState.valueOf(nodeEditForm.stateComboBox.selectedItem.get()),
+                    nodeEditForm.issueTrackerUrlTextField.value.trim(),
+                    nodeEditForm.externalReferenceUrlTextField.value.trim(),
+                    nodeEditForm.descriptionTextArea.value.trim()
+            )
             refresh(zoomer.currentZoomFactor())
         }
         nodeEditForm.submitButton.isEnabled = selectedNodeIndex != null

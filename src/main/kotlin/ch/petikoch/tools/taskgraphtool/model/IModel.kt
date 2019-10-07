@@ -6,6 +6,13 @@ interface IModel {
 
     fun nodes(): Iterable<Pair<Int, Node>>
 
+    fun updateNode(nodeIndex: Int,
+                   text: String,
+                   state: NodeState,
+                   issueTrackerUrl: String,
+                   externalUrl: String,
+                   description: String)
+
     fun connections(): Iterable<Connection>
 
     fun loadFrom(other: IModel)
