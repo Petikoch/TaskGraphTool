@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="design-properties"
+          content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/kotlin&quot;,&quot;THEME&quot;:&quot;valo&quot;}">
+    <meta name="vaadin-version" content="8.1.5">
+</head>
+<body>
+<vaadin-horizontal-layout spacing="false" size-full>
+    <vaadin-vertical-layout spacing="false" width-auto height-full margin="false">
+        <vaadin-label style-name="h3" plain-text>
+            TaskGraphTool
+        </vaadin-label>
+        <vaadin-grid-layout>
+            <row>
+                <column>
+                    <vaadin-button icon="fonticon://Vaadin-Icons/e801" description="Add node" plain-text
+                                   _id="addNodeButton"></vaadin-button>
+                </column>
+                <column>
+                    <vaadin-button icon="fonticon://Vaadin-Icons/e751" description="Add connection" plain-text
+                                   _id="addConnectionButton"></vaadin-button>
+                </column>
+            </row>
+            <row>
+                <column>
+                    <vaadin-button icon="fonticon://Vaadin-Icons/e810" description="Delete node" plain-text
+                                   _id="deleteNodeButton"></vaadin-button>
+                </column>
+                <column>
+                    <vaadin-button icon="fonticon://Vaadin-Icons/e911" description="Delete connection" plain-text
+                                   _id="deleteConnectionButton"></vaadin-button>
+                </column>
+            </row>
+            <row>
+                <column>
+                    <vaadin-button icon="fonticon://Vaadin-Icons/e6f0" description="Save" plain-text
+                                   _id="saveButton"></vaadin-button>
+                </column>
+                <column>
+                    <vaadin-upload button-caption="Load" description="Load model from file"
+                                   _id="upload"></vaadin-upload>
+                </column>
+            </row>
+            <row>
+                <column></column>
+                <column>
+                    <vaadin-button plain-text _id="resetButton">
+                        Reset
+                    </vaadin-button>
+                </column>
+            </row>
+        </vaadin-grid-layout>
+        <vaadin-vertical-layout width-auto height-full :expand></vaadin-vertical-layout>
+        <vaadin-grid-layout>
+            <row>
+                <column>
+                    <vaadin-button icon="fonticon://Vaadin-Icons/e803" description="Zoom In" plain-text
+                                   _id="zoomIn"></vaadin-button>
+                </column>
+                <column>
+                    <vaadin-button icon="fonticon://Vaadin-Icons/e804" description="Zoom Out" plain-text
+                                   _id="zoomOut"></vaadin-button>
+                </column>
+            </row>
+        </vaadin-grid-layout>
+    </vaadin-vertical-layout>
+    <vaadin-horizontal-split-panel split-position="80%" _id="splitPanel" :expand>
+        <vaadin-horizontal-layout spacing="false" size-full margin-left _id="imageWrapper"></vaadin-horizontal-layout>
+        <vaadin-vertical-layout size-full margin-right="false" margin-top="false" margin-bottom="false">
+            <vaadin-label plain-text _id="detailsLabel">
+                Details
+            </vaadin-label>
+            <vaadin-text-field caption="Node" width-full _id="nodeTitle"></vaadin-text-field>
+            <vaadin-combo-box caption="State" empty-selection-allowed="false" text-input-allowed="false" width-full
+                              data-item-type="java.lang.String" _id="nodeStateComboBox">
+                <option item="Option1">Option 1</option>
+                <option item="Option2">Option 2</option>
+                <option item="Option3">Option 3</option>
+            </vaadin-combo-box>
+            <vaadin-text-area caption="Details" size-full _id="nodeDetails" :expand></vaadin-text-area>
+            <vaadin-button enabled="false" plain-text _id="applyButton">
+                Apply
+            </vaadin-button>
+        </vaadin-vertical-layout>
+    </vaadin-horizontal-split-panel>
+</vaadin-horizontal-layout>
+</body>
+</html>
