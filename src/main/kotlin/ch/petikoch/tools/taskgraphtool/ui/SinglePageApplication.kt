@@ -145,24 +145,7 @@ class SinglePageApplication : DesignSinglePageApplication(), InitializingBean {
 
         val imageBytes = modelRenderer.render(model, Format.SVG)
 
-        val document = JOOX.`$`(ByteArrayInputStream(imageBytes)).document()
-        // add onclick on g elements of all nodes
-        JOOX.`$`(document).xpath("//*[name()='g' and @class='node']").forEach {
-            val nodeTitle = JOOX.`$`(it).find("title").text()
-            val nodeNumber = Regex("(\\d+).*").find(nodeTitle)!!.groups[1]!!.value
-            JOOX.`$`(it).attr("onclick", "top.taskgraphtool_nodeselected(\"$nodeNumber\");")
-        }
-
-        // zoom
-        val svgRootNode = JOOX.`$`(document).xpath("/*[name()='svg']")
-        val originalWidth = svgRootNode.attr("width").let { it.substring(0, it.length - 2) }
-        val originalHeight = svgRootNode.attr("height").let { it.substring(0, it.length - 2) }
-        val zoomedWidth = (originalWidth.toInt() * zoomFactor).toInt()
-        val zoomedHeight = (originalHeight.toInt() * zoomFactor).toInt()
-        svgRootNode.attr("width", "${zoomedWidth}px")
-        svgRootNode.attr("height", "${zoomedHeight}px")
-        val modifiedSvg = ByteArrayOutputStream()
-        JOOX.`$`(document).write(modifiedSvg)
+        val modifiedSvg = enhanceSvg(imageBytes, zoomFactor)
 
         //https://github.com/mstahv/svgexamples/blob/master/src/main/java/org/vaadin/beta82test/FileExample.java
         //https://raw.githubusercontent.com/mstahv/svgexamples/master/src/main/resources/pull.svg
@@ -191,6 +174,29 @@ class SinglePageApplication : DesignSinglePageApplication(), InitializingBean {
             }
         }
         imageWrapper.addComponent(newPanel)
+    }
+
+    private fun enhanceSvg(imageBytes: ByteArray, zoomFactor: Float): ByteArrayOutputStream {
+        val document = JOOX.`$`(ByteArrayInputStream(imageBytes)).document()
+
+        // add onclick on g elements of all nodes
+        JOOX.`$`(document).xpath("//*[name()='g' and @class='node']").forEach {
+            val nodeTitle = JOOX.`$`(it).find("title").text()
+            val nodeNumber = Regex("(\\d+).*").find(nodeTitle)!!.groups[1]!!.value
+            JOOX.`$`(it).attr("onclick", "top.taskgraphtool_nodeselected(\"$nodeNumber\");")
+        }
+
+        // handle zoom
+        val svgRootNode = JOOX.`$`(document).xpath("/*[name()='svg']")
+        val originalWidth = svgRootNode.attr("width").let { it.substring(0, it.length - 2) }
+        val originalHeight = svgRootNode.attr("height").let { it.substring(0, it.length - 2) }
+        val zoomedWidth = (originalWidth.toInt() * zoomFactor).toInt()
+        val zoomedHeight = (originalHeight.toInt() * zoomFactor).toInt()
+        svgRootNode.attr("width", "${zoomedWidth}px")
+        svgRootNode.attr("height", "${zoomedHeight}px")
+        val modifiedSvg = ByteArrayOutputStream()
+        JOOX.`$`(document).write(modifiedSvg)
+        return modifiedSvg
     }
 
     fun selectNode(nodeNumber: Int) {
