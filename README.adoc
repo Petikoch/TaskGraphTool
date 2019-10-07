@@ -1,0 +1,56 @@
+= Task Graph Tool
+Peti Koch
+:imagesdir: ./docs
+:project-name: TaskGraphTool
+:github-branch: master
+:github-user: Petikoch
+:bintray-user: petikoch
+
+== Introduction
+
+The *Task Graph Tool* is a visual issue tracker with goals, problems, decisions and tasks as first class citizens.
+
+== State of the project
+
+This is just a prototype.
+
+== How to run
+
+The *Task Graph Tool* is a webapplication based on
+
+* Spring-Boot
+* Kotlin
+* Gradle
+* Vaadin
+* https://github.com/nidi3/graphviz-java
+* and some other open source libraries
+
+Clone the git repo to your local machine, cd to the directory and run the webapplication using
+
+[source]
+----
+> ./gradlew bootRun
+----
+
+Afterwards open your favourite webbrowser http://localhost:8080/
+
+== Screenshot
+
+image::Screenshot.png[]
+
+== More realistic example
+
+Here you see the state of this project
+
+image::TaskGraphTool-model.svg[]
+
+== Requirements
+
+To use this tool you need
+
+* Java 8 or later
+
+
+Best regards,
+
+image::Signature.jpg[]
