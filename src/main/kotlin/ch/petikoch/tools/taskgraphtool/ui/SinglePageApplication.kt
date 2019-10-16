@@ -207,16 +207,22 @@ class SinglePageApplication : DesignSinglePageApplication(), InitializingBean {
             autoSaveFolder.mkdirs()
 
             val curentLocalDateTime = LocalDateTime.now()
-            autoSaveFolder.listFiles()?.forEach {
-                val lastModifiedTimeMillis = it.lastModified()
-                val lastModifiedLocalDateTime = LocalDateTime.ofInstant(Instant.ofEpochMilli(lastModifiedTimeMillis), ZoneId.systemDefault())
-                val daysBetween = ChronoUnit.DAYS.between(lastModifiedLocalDateTime, curentLocalDateTime)
-                if (daysBetween > 14) {
-                    val deleted = it.delete()
-                    check(deleted) { "Could not auto delete ${it.absolutePath}" }
-                    logger.info("Auto deleted old ${it.absolutePath}")
-                }
-            }
+
+            (autoSaveFolder.listFiles()?.toList() ?: listOf<File>())
+                    // TODO this doesn't perfrom
+                    .sortedBy { it.lastModified() }
+                    .dropLast(50)
+                    // end TODO
+                    .forEach {
+                        val lastModifiedTimeMillis = it.lastModified()
+                        val lastModifiedLocalDateTime = LocalDateTime.ofInstant(Instant.ofEpochMilli(lastModifiedTimeMillis), ZoneId.systemDefault())
+                        val daysBetween = ChronoUnit.DAYS.between(lastModifiedLocalDateTime, curentLocalDateTime)
+                        if (daysBetween > 14) {
+                            val deleted = it.delete()
+                            check(deleted) { "Could not auto delete ${it.absolutePath}" }
+                            logger.info("Auto deleted old ${it.absolutePath}")
+                        }
+                    }
 
             val serializedModel = modelSerializer.serialize(model)
             val fileNamePrefix = "model_${LocalDateTime.now()}".replace(":", "_").replace(".", "_")
