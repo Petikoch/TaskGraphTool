@@ -17,7 +17,7 @@ repositories {
     jcenter()
 }
 
-extra["vaadinVersion"] = "8.9.0"
+extra["vaadinVersion"] = "8.9.1"
 
 val developmentOnly by configurations.creating
 configurations {
