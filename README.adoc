@@ -12,7 +12,7 @@ The *Task Graph Tool* is a visual issue tracker with _goals_, _problems_, _decis
 
 == State of the project
 
-This is just a prototype.
+This is just a prototype. It's a quick hack to experiment with the idea. The code quality is poor.
 
 == How to run
 
